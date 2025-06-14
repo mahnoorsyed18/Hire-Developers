@@ -1,0 +1,27 @@
+.about-us-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; 
+  width: 100%;
+}
+
+.left-section {
+  width: 80%; 
+}
+
+.left-section h1,
+.left-section p,
+.left-section button {
+  margin-bottom: 20px; 
+}
+
+.right-section {
+  width: 20%; 
+  display: flex;
+  justify-content: flex-end;
+}
+
+p {
+  line-height: 2.3rem;
+  font-weight: 500;
+}

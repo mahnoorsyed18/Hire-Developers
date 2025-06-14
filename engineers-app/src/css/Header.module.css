@@ -1,0 +1,15 @@
+.header {
+  display:inline-block;
+  width: 90%
+}
+
+.nav-clicks {
+  margin: 10px;
+  font-size: 17px;
+}
+
+.title {
+  margin-left: 8rem;
+  margin-top: 10px;
+  font-weight: 800;
+}

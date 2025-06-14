@@ -1,0 +1,12 @@
+.metricsContainer {
+  background-image: url('images/metrics-bg.jpg');
+  background-size: cover;
+  background-attachment:fixed;
+  display: flex;
+  justify-content: space-between;
+  padding: 7rem;
+}
+
+.metrics {
+  text-shadow: 2px 2px #fff;
+}

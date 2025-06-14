@@ -1,0 +1,1958 @@
+{
+  "engineers": [
+    {
+      "id": "E001",
+      "name": "John Doe",
+      "designation": "Full-Stack Developer",
+      "skills": ["React", "JavaScript", "Node.js"],
+      "experience": 5 ,
+      "location": "San Francisco, USA",
+      "profilePicture": "images/1.jpg",
+      "currentCompany": "Tech Innovators",
+      "availability": "Available",
+      "hourlyCharges": "$80 USD / hour",
+      "bio": "John Doe is a talented Full-Stack Developer based in San Francisco, USA, with expertise in building high-performing web applications. Specializing in JavaScript, React, and Node.js, John excels in both front-end and back-end development, making him a versatile asset to any team. His deep understanding of these technologies enables him to craft seamless and scalable solutions. Committed to delivering quality work that aligns with client goals, John is always eager to tackle new challenges. Currently with Tech Innovators, he is available for new opportunities and ready to contribute his skills to innovative projects.",
+      "services": [
+        "Web Development",
+        "API Integration",
+        "Performance Optimization"
+      ],
+      "description": {
+        "paragraph1": "John Doe is a dedicated full-stack developer known for his ability to translate complex client requirements into functional and efficient web solutions. Throughout his 5-year career, John has worked on a variety of projects, ranging from small business websites to large-scale enterprise applications. His expertise in React allows him to create intuitive and responsive user interfaces, ensuring a seamless user experience across all devices. On the back-end, John's proficiency in Node.js helps him build robust server-side applications that can handle high traffic and large datasets with ease.",
+        "paragraph2": "John's approach to development is heavily focused on performance and scalability. He understands the importance of optimizing code to reduce load times and improve overall application performance, which is critical for maintaining user engagement and satisfaction. His experience with API integration ensures that applications can communicate effectively with other systems, providing a cohesive and connected experience for users.",
+        "paragraph3": "John is also a strong advocate for clean, maintainable code. He follows best practices in coding and is always looking for ways to improve his workflow through automation and the use of cutting-edge tools. His ability to work closely with clients and understand their vision sets him apart from other developers. He takes the time to explain technical concepts in a way that is accessible, ensuring that clients are always informed and confident in the progress of their projects.",
+        "paragraph4": "In addition to his technical skills, John has a proven track record of delivering projects on time and within budget. His clients appreciate his reliability and the quality of his work, which is reflected in his high repeat hire rate and positive reviews. Whether you need a complete web application built from scratch or require improvements to an existing project, John is well-equipped to deliver results that exceed expectations."
+      },
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": false
+      },
+      "onTimeDelivery": "95%",
+      "onBudget": "90%",
+      "acceptRate": "85%",
+      "repeatHireRate": "70%",
+      "overallRating": 4.7,
+      "numberOfReviews": 120,
+      "amountEarned": "$150,000",
+      "successfullyCompletedJobs": "98%"
+    },
+    {
+      "id": "E002",
+      "name": "Jane Smith",
+      "designation": "Machine Learning Engineer",
+      "skills": ["Python", "Django", "Machine Learning"],
+      "experience": 7,
+      "location": "London, UK",
+      "profilePicture": "images/2.jpg",
+      "currentCompany": "Data Giants",
+      "availability": "Currently Employed",
+      "hourlyCharges": "$100 USD / hour",
+      "bio": "Jane Smith is a skilled Machine Learning Engineer based in London, UK, specializing in Python and Django. She excels in creating and deploying intelligent systems that drive business success. Known for her focus on accuracy and efficiency, Jane integrates machine learning algorithms seamlessly into real-world applications. Her meticulous problem-solving approach and passion for leveraging data to create impactful solutions set her apart. Currently with Data Giants, Jane is dedicated to delivering complex machine learning models and contributing to innovative projects. Her expertise makes her a valuable asset for any organization aiming to harness the power of data.",
+      "services": [
+        "Machine Learning Models",
+        "Data Analysis",
+        "Backend Development"
+      ],
+      "description": {
+        "paragraph1": "Jane Smith is a highly experienced machine learning engineer with a rich background in developing sophisticated models and backend systems. Over her 7-year career, she has been instrumental in the successful deployment of machine learning solutions for a variety of industries, including finance, healthcare, and e-commerce. Her expertise in Python allows her to write efficient and scalable code, while her knowledge of Django ensures that the models she creates are seamlessly integrated into robust backend frameworks.",
+        "paragraph2": "Jane's approach to machine learning is both analytical and innovative. She excels at transforming raw data into actionable insights, enabling businesses to make informed decisions and stay ahead of the competition. Her work in data analysis is complemented by her ability to develop custom machine learning algorithms that are tailored to the specific needs of her clients. Whether it's predictive analytics, natural language processing, or image recognition, Jane has the skills and experience to deliver cutting-edge solutions.",
+        "paragraph3": "In addition to her technical expertise, Jane is known for her strong project management skills. She has a track record of delivering projects on time and within budget, and her clients appreciate her ability to clearly communicate complex technical concepts. This has led to a high repeat hire rate and numerous positive reviews. Jane is committed to maintaining the highest standards in her work, ensuring that every project she undertakes is completed to the client's satisfaction.",
+        "paragraph4": "Despite being currently employed, Jane remains open to freelance opportunities where she can continue to apply her skills in new and challenging environments. Her dedication to her craft, combined with her extensive experience, makes her an invaluable partner for any organization looking to harness the power of machine learning."
+      },
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": false
+      },
+      "onTimeDelivery": "92%",
+      "onBudget": "85%",
+      "acceptRate": "80%",
+      "repeatHireRate": "65%",
+      "overallRating": 4.6,
+      "numberOfReviews": 150,
+      "amountEarned": "$200,000",
+      "successfullyCompletedJobs": "97%"
+    },
+    {
+      "id": "E003",
+      "name": "Michael Brown",
+      "designation": "Backend Developer",
+      "skills": ["Java", "Spring Boot", "Microservices"],
+      "experience": 6,
+      "location": "New York, USA",
+      "profilePicture": "images/3.jpg",
+      "currentCompany": "Global Enterprises",
+      "availability": "Open to Offers",
+      "hourlyCharges": "$100 USD / hour",
+      "bio": "Michael Brown is a skilled backend developer based in New York, USA, specializing in Java and Spring Boot. With a deep understanding of microservices architecture, he excels in creating scalable, efficient, and secure backend solutions. Michael’s expertise in solving complex problems and optimizing system performance has been a valuable asset on various high-profile projects. Known for his commitment to continuous learning and improvement, he strives to deliver top-notch results for his clients. Currently with Global Enterprises, Michael is open to new opportunities and ready to contribute his advanced skills to innovative backend development projects.",
+      "services": [
+        "Backend Development",
+        "Microservices Architecture",
+        "API Development"
+      ],
+      "description": {
+        "paragraph1": "Michael Brown has over 6 years of extensive experience in backend development, primarily working with Java and Spring Boot. His proficiency in these technologies allows him to create robust, scalable systems that are designed to handle high volumes of data and traffic. Michael's expertise in microservices architecture is one of his key strengths, enabling him to build systems that are not only scalable but also easy to manage and maintain. He has a strong understanding of the principles of RESTful API development, which ensures seamless integration with front-end applications and other services.",
+        "paragraph2": "Michael is a results-oriented developer who places a strong emphasis on performance optimization. His code is known for being clean, efficient, and well-documented, making it easy for other developers to work with and extend. He takes a proactive approach to identifying potential bottlenecks and optimizing system performance, ensuring that the solutions he develops are both reliable and fast. Michael’s experience in working with large-scale enterprise systems has honed his ability to design architectures that are both resilient and adaptable to future needs.",
+        "paragraph3": "Communication and collaboration are also central to Michael’s work ethic. He believes in the importance of understanding client requirements in depth before starting a project, which helps him deliver solutions that truly meet their needs. His ability to translate complex technical concepts into clear, understandable language makes him an effective communicator, both with technical teams and non-technical stakeholders. This has earned him a reputation as a developer who not only delivers high-quality work but also ensures that clients are kept informed and involved throughout the development process.",
+        "paragraph4": "Michael is currently open to new opportunities where he can apply his skills in backend development and microservices architecture. He is particularly interested in projects that challenge him to push the boundaries of his expertise and contribute to the success of innovative, tech-driven companies. With a strong track record of delivering projects on time and within budget, Michael is a dependable and highly skilled developer who brings value to every project he undertakes."
+      },
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": true
+      },
+      "onTimeDelivery": "97%",
+      "onBudget": "93%",
+      "acceptRate": "88%",
+      "repeatHireRate": "72%",
+      "overallRating": 4.8,
+      "numberOfReviews": 110,
+      "amountEarned": "$180,000",
+      "successfullyCompletedJobs": "99%"
+    },
+    {
+      "id": "E004",
+      "name": "Emily Davis",
+      "designation": "Frontend Developer",
+      "skills": ["Angular", "TypeScript", "CSS"],
+      "experience": 4,
+      "location": "Berlin, Germany",
+      "profilePicture": "images/4.jpg",
+      "currentCompany": "NextGen Tech",
+      "availability": "Available",
+      "hourlyCharges": " $85 USD / hour",
+      "bio": "Emily Davis is a creative frontend developer based in Berlin, Germany, with expertise in Angular and TypeScript. Known for her attention to detail and passion for crafting seamless user experiences, Emily combines her technical skills with a strong understanding of design principles. She excels in delivering high-quality, responsive web applications that are both functionally robust and visually engaging. Her ability to bridge the gap between design and development makes her a valuable asset for any project focused on user interface and experience. Currently with NextGen Tech, Emily is available for new opportunities and ready to contribute her expertise.",
+      "services": ["Frontend Development", "UI/UX Design", "Responsive Design"],
+      "description": {
+        "paragraph1": "Emily Davis is a highly skilled frontend developer with over 4 years of experience in building visually appealing, responsive web applications. Her expertise lies in Angular and TypeScript, two of the most powerful tools in modern frontend development. Emily's proficiency in these technologies allows her to create web applications that are not only functional but also aesthetically pleasing. Her work is characterized by clean, well-structured code that adheres to best practices, ensuring that the applications she develops are both maintainable and scalable.",
+        "paragraph2": "Emily has a strong background in UI/UX design, which gives her a unique advantage as a frontend developer. She understands the importance of creating interfaces that are intuitive and easy to use, ensuring that end-users have a seamless experience. Her approach to design is user-centered, focusing on understanding the needs and behaviors of users to create interfaces that are both functional and engaging. This ability to combine technical expertise with design thinking sets her apart as a developer who can deliver end-to-end solutions.",
+        "paragraph3": "In addition to her technical skills, Emily is also highly proficient in CSS, allowing her to create responsive designs that look great on any device. She understands the importance of ensuring that applications are accessible and performant across different screen sizes and platforms. Her attention to detail in design ensures that every element of the interface is carefully crafted, resulting in a polished and professional final product. Emily's commitment to quality is evident in her work, as she consistently delivers projects that meet or exceed client expectations.",
+        "paragraph4": "Emily is a strong communicator and collaborator, always striving to work closely with clients and team members to ensure that the final product aligns with the project vision. She values feedback and is open to iterating on her work to achieve the best possible outcome. Her ability to manage her time effectively and deliver projects on schedule has earned her a reputation as a reliable and efficient developer. Currently available for new opportunities, Emily is eager to apply her skills and creativity to new and exciting projects, helping companies create web applications that stand out in the market."
+      },
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": false
+      },
+      "onTimeDelivery": "93%",
+      "onBudget": "89%",
+      "acceptRate": "82%",
+      "repeatHireRate": "68%",
+      "overallRating": 4.5,
+      "numberOfReviews": 90,
+      "amountEarned": "$120,000",
+      "successfullyCompletedJobs": "96%"
+    },
+    {
+      "id": "E005",
+      "name": "Robert Wilson",
+      "designation": "Cloud Solutions Architect",
+      "skills": ["C#", ".NET", "Azure"],
+      "experience": 8,
+      "location": "Toronto, Canada",
+      "profilePicture": "images/5.jpg",
+      "currentCompany": "Cloud Innovators",
+      "availability": "Currently Employed",
+      "hourlyCharges": "$120 USD / hour",
+      "bio": "Robert Wilson is a seasoned Cloud Solutions Architect based in Toronto, Canada, with expertise in C#, .NET, and Azure. He excels in designing and implementing robust cloud infrastructures that support business growth and needs. With a deep understanding of cloud technologies, Robert delivers scalable and secure solutions tailored to complex project requirements. His commitment to excellence in cloud architecture and backend development makes him a valuable asset for organizations looking to leverage cloud computing for strategic advantage. Currently with Cloud Innovators, Robert continues to contribute his extensive knowledge to developing cutting-edge cloud solutions.",
+      "services": [
+        "Cloud Architecture",
+        "Azure Solutions",
+        "Backend Development"
+      ],
+      "description": {
+        "paragraph1": "Robert Wilson brings over 8 years of comprehensive experience in cloud solutions and backend development, making him a seasoned expert in his field. His expertise in C#, .NET, and Azure enables him to design, build, and deploy sophisticated cloud infrastructures that are both secure and scalable. Robert’s approach to cloud architecture is methodical and detail-oriented, ensuring that every solution he delivers meets the highest standards of performance and reliability.",
+        "paragraph2": "Throughout his career, Robert has worked on a variety of projects involving cloud migration, infrastructure optimization, and the development of cloud-based applications. His experience with Azure, one of the leading cloud platforms, allows him to leverage a wide range of tools and services to create tailored solutions that fit specific client needs. Whether it’s setting up virtual networks, implementing security protocols, or optimizing cloud performance, Robert's expertise ensures that projects are executed with precision and efficiency.",
+        "paragraph3": "Robert is also adept at backend development, which complements his cloud architecture skills. His proficiency in C# and .NET allows him to create robust and efficient backend systems that integrate seamlessly with cloud services. This combination of cloud and backend expertise means that Robert can handle end-to-end solutions, from the initial design phase through to deployment and maintenance. His work is characterized by a focus on security, scalability, and performance, addressing the core needs of modern cloud environments.",
+        "paragraph4": "Robert’s reputation in the industry is built on his ability to deliver projects on time and within budget while maintaining a high level of client satisfaction. His success metrics reflect his dedication to quality and reliability, with an impressive track record of completed jobs and positive reviews. Despite being currently employed, Robert is open to consulting opportunities where he can apply his extensive knowledge to new challenges. His passion for cloud technology and commitment to excellence make him an ideal candidate for projects requiring advanced cloud solutions and backend development expertise."
+      },
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": true
+      },
+      "onTimeDelivery": "95%",
+      "onBudget": "92%",
+      "acceptRate": "87%",
+      "repeatHireRate": "75%",
+      "overallRating": 4.9,
+      "numberOfReviews": 140,
+      "amountEarned": "$250,000",
+      "successfullyCompletedJobs": "98%"
+    },    
+    {
+      "id": "E006",
+      "name": "Sophia Martinez",
+      "designation": "Frontend Developer",
+      "skills": ["Vue.js", "JavaScript", "HTML"],
+      "experience": 3,
+      "location": "Paris, France",
+      "profilePicture": "images/6.jpg",
+      "currentCompany": "Web Masters",
+      "availability": "Available",
+      "hourlyCharges": "$90 USD / hour",
+      "bio": "Sophia Martinez is a skilled Frontend Developer based in Paris, France, specializing in Vue.js and JavaScript. Known for her ability to write clean, efficient code, Sophia enhances both functionality and user experience. Her passion for frontend development is evident in her commitment to producing high-quality work and her attention to detail. Sophia excels at translating complex design concepts into functional web interfaces, making her a valuable asset for projects focused on delivering exceptional user experiences. Currently with Web Masters, she is available for new opportunities and ready to contribute to innovative frontend solutions.",
+      "services": [
+        "Frontend Development",
+        "UI Design",
+        "Web Performance Optimization"
+      ],
+      "description": {
+        "paragraph1": "Sophia Martinez stands out as a talented frontend developer with a specialization in Vue.js, JavaScript, and HTML. Over the past 3 years, she has honed her skills in crafting intuitive and visually appealing web interfaces. Her technical expertise in Vue.js allows her to build dynamic, reactive user interfaces that enhance user engagement and interaction. Sophia’s knowledge of JavaScript ensures that the functionality of the web applications she develops is robust and seamless, while her proficiency in HTML guarantees that the underlying structure of the web pages is well-organized and accessible.",
+        "paragraph2": "In her role at Web Masters, Sophia has successfully tackled a variety of projects, each presenting unique challenges that have further refined her skill set. Her approach to frontend development is characterized by a meticulous attention to detail and a dedication to delivering high-quality results. Sophia's ability to understand and implement complex design concepts is evident in her work, where she consistently translates client visions into functional and aesthetically pleasing web interfaces. Her expertise extends beyond coding, as she also emphasizes the importance of user experience in her development process.",
+        "paragraph3": "Sophia’s commitment to excellence is reflected in her approach to web performance optimization. She employs best practices to ensure that web applications load quickly and run efficiently, which is crucial for maintaining user satisfaction and engagement. Her attention to performance is complemented by her strong understanding of UI design principles, which she integrates seamlessly into her projects. This holistic approach ensures that the applications she develops are not only functional but also deliver a smooth and enjoyable user experience. Her dedication to optimizing every aspect of the frontend development process makes her a standout professional in her field.",
+        "paragraph4": "Overall, Sophia Martinez's blend of technical expertise, attention to detail, and dedication to user experience sets her apart as a frontend developer. Her experience and skills make her well-equipped to handle diverse projects, from simple web pages to complex, interactive applications. Sophia’s ability to consistently deliver high-quality work and her commitment to staying current with industry trends contribute to her reputation as a reliable and effective developer. Her contributions to the field of frontend development are a testament to her passion and professionalism, making her a valuable asset to any project or team."
+      },
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": false
+      },
+      "onTimeDelivery": "90%",
+      "onBudget": "85%",
+      "acceptRate": "80%",
+      "repeatHireRate": "65%",
+      "overallRating": 4.4,
+      "numberOfReviews": 60,
+      "amountEarned": "$80,000",
+      "successfullyCompletedJobs": "95%"
+    },    
+    {
+      "id": "E007",
+      "name": "David Garcia",
+      "designation": "Senior Backend Developer",
+      "skills": ["PHP", "Laravel", "MySQL"],
+      "experience": 10,
+      "location": "Madrid, Spain",
+      "profilePicture": "images/7.jpg",
+      "currentCompany": "Backend Wizards",
+      "availability": "Open to Offers",
+      "hourlyCharges": "$120 USD / hour",
+      "bio": "David Garcia is an experienced backend developer based in Madrid, Spain, specializing in PHP and Laravel. He excels in building robust and scalable backend systems that support complex applications. With his proficiency in PHP, Laravel, and MySQL, David delivers efficient and secure solutions tailored to specific project needs. Known for his depth of knowledge and commitment to quality, he is a reliable choice for projects requiring a highly skilled backend professional. Currently with Backend Wizards, David is open to new opportunities and continues to contribute to successful backend solutions with his extensive expertise.",
+      "services": [
+        "Backend Development",
+        "Database Design",
+        "API Integration"
+      ],
+      "description": {
+        "paragraph1": "David Garcia brings over 10 years of experience as a backend developer, specializing in PHP, Laravel, and MySQL. His extensive experience has equipped him with the skills necessary to design and implement robust backend systems that drive complex applications. David's deep understanding of these technologies allows him to address challenges effectively and create systems that are both scalable and secure.",
+        "paragraph2": "Throughout his career, David has been involved in a variety of projects, from small-scale applications to large enterprise systems. His work with PHP and Laravel has focused on developing high-performance backend solutions that integrate seamlessly with frontend technologies. He is skilled in creating well-structured databases with MySQL, ensuring data integrity and efficient retrieval.",
+        "paragraph3": "David's approach to backend development emphasizes reliability and security. He follows best practices to ensure that the systems he builds are resilient to potential threats and perform optimally under various conditions. His ability to design and implement APIs that facilitate smooth interactions between different system components is a testament to his expertise in the field.",
+        "paragraph4": "In addition to his technical skills, David is known for his problem-solving abilities and dedication to meeting project deadlines. His commitment to delivering high-quality work and his track record of successful projects make him a valuable asset to any team or project looking for an experienced backend developer."
+      },
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": true
+      },
+      "onTimeDelivery": "98%",
+      "onBudget": "95%",
+      "acceptRate": "90%",
+      "repeatHireRate": "78%",
+      "overallRating": 4.9,
+      "numberOfReviews": 180,
+      "amountEarned": "$300,000",
+      "successfullyCompletedJobs": "99%"
+    },    
+    {
+      "id": "E008",
+      "name": "Linda Johnson",
+      "designation": "Data Scientist",
+      "skills": ["Python", "R", "Data Visualization"],
+      "experience": 5,
+      "location": "Sydney, Australia",
+      "profilePicture": "images/8.jpg",
+      "currentCompany": "Data Insights",
+      "availability": "Available",
+      "hourlyCharges": "$110 USD / hour",
+      "bio": "Linda Johnson is a data scientist based in Sydney, Australia, known for her expertise in extracting actionable insights from complex datasets. Specializing in Python, R, and advanced data visualization techniques, Linda transforms raw data into meaningful information. Her skills in analyzing trends, building predictive models, and presenting data clearly make her a valuable asset for teams aiming to leverage data for strategic decision-making. Currently with Data Insights, Linda is dedicated to delivering high-quality, data-driven results and continues to excel in creating impactful solutions through her analytical prowess.",
+      "services": [
+        "Data Analysis",
+        "Machine Learning",
+        "Data Visualization"
+      ],
+      "description": {
+        "paragraph1": "Linda Johnson has established herself as a skilled data scientist with 5 years of experience in the industry. Her proficiency in Python and R enables her to tackle a wide range of data analysis tasks, from cleaning and preprocessing data to building and validating predictive models. Linda's expertise is particularly evident in her ability to use these tools to extract actionable insights that drive business decisions and strategies.",
+        "paragraph2": "In addition to her technical skills, Linda is adept at using advanced data visualization techniques to present complex data in a clear and comprehensible manner. She employs tools and libraries that allow her to create intuitive visualizations that help stakeholders understand trends, patterns, and anomalies in the data. Her visualizations are not only informative but also designed to facilitate strategic decision-making.",
+        "paragraph3": "Linda's experience includes working on a variety of projects that involve large datasets and complex analytical challenges. She has successfully applied machine learning algorithms to solve real-world problems, enhancing her ability to derive valuable insights from data. Her work often involves collaboration with cross-functional teams to ensure that data-driven solutions align with overall business objectives.",
+        "paragraph4": "Linda is known for her analytical mindset, attention to detail, and dedication to delivering high-quality work. Her ability to handle diverse data science tasks, combined with her commitment to staying updated with the latest trends and techniques in the field, makes her a reliable and skilled professional. Linda's contributions to data science projects consistently lead to successful outcomes and valuable insights."
+      },
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": false
+      },
+      "onTimeDelivery": "94%",
+      "onBudget": "90%",
+      "acceptRate": "85%",
+      "repeatHireRate": "70%",
+      "overallRating": 4.6,
+      "numberOfReviews": 130,
+      "amountEarned": "$160,000",
+      "successfullyCompletedJobs": "97%"
+    },    
+    {
+      "id": "E009",
+      "name": "James Lee",
+      "designation": "DevOps Engineer",
+      "skills": ["AWS", "Docker", "Kubernetes"],
+      "experience": 7,
+      "location": "Singapore",
+      "profilePicture": "images/9.jpg",
+      "currentCompany": "CloudOps Experts",
+      "availability": "Currently Employed",
+      "hourlyCharges": "$120 USD / hour",
+      "bio": "James Lee is a skilled DevOps Engineer based in Singapore, specializing in cloud computing, containerization, and automation. He excels in using AWS, Docker, and Kubernetes to build and maintain robust, scalable cloud infrastructures. Known for streamlining operations through automation and optimizing system performance, James is dedicated to efficient deployment practices. His deep understanding of modern DevOps tools and commitment to high availability and performance make him a valuable asset to any team. Currently with CloudOps Experts, James continues to stay at the forefront of industry advancements and contribute to successful cloud solutions.",
+      "services": [
+        "Cloud Infrastructure",
+        "Continuous Integration",
+        "Deployment Automation"
+      ],
+      "description": {
+        "paragraph1": "James Lee has accumulated 7 years of hands-on experience as a DevOps engineer, focusing on cloud infrastructure and automation. His in-depth knowledge of AWS allows him to design and implement scalable cloud solutions that meet diverse business needs. James is adept at configuring and managing AWS services to ensure high availability and reliability of applications and infrastructure.",
+        "paragraph2": "In addition to his expertise in cloud computing, James is proficient in containerization technologies such as Docker. He uses Docker to create, deploy, and manage lightweight and portable containerized applications. His skills in Docker enable him to streamline the development and deployment process, leading to faster and more efficient software releases.",
+        "paragraph3": "James is also skilled in Kubernetes, a powerful orchestration tool for managing containerized applications at scale. His experience with Kubernetes includes setting up and managing clusters, automating deployment processes, and ensuring seamless scaling and updates. His work with Kubernetes helps teams achieve greater operational efficiency and resilience in their applications.",
+        "paragraph4": "James's commitment to continuous integration and deployment automation ensures that development pipelines are optimized for speed and reliability. He employs various CI/CD tools and practices to automate testing, integration, and deployment processes, reducing manual intervention and minimizing errors. His proactive approach to DevOps practices contributes to the successful and timely delivery of high-quality software solutions."
+      },
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": true
+      },
+      "onTimeDelivery": "96%",
+      "onBudget": "92%",
+      "acceptRate": "88%",
+      "repeatHireRate": "75%",
+      "overallRating": 4.7,
+      "numberOfReviews": 100,
+      "amountEarned": "$200,000",
+      "successfullyCompletedJobs": "98%"
+    },    
+    {
+      "id": "E010",
+      "name": "Olivia Brown",
+      "designation": "UI/UX Designer",
+      "skills": ["Figma", "Sketch", "Adobe XD"],
+      "experience": 6,
+      "location": "New Delhi, India",
+      "profilePicture": "images/10.jpg",
+      "currentCompany": "DesignPro Studio",
+      "availability": "Open to Offers",
+      "hourlyCharges": "$110 USD / hour",
+      "bio": "Olivia Brown is a creative UI/UX Designer based in New Delhi, India, with a strong background in designing intuitive and engaging user interfaces. With 6 years of experience, she excels in using Figma, Sketch, and Adobe XD to craft visually appealing and user-friendly solutions. Olivia’s portfolio demonstrates her skill in blending aesthetics with functionality, ensuring a seamless user experience. Her dedication to understanding user needs and translating them into compelling design makes her a standout in the field. Currently with DesignPro Studio, Olivia is open to new opportunities and ready to bring her innovative approach to fresh challenges.",
+      "services": [
+        "UI Design",
+        "UX Research",
+        "Prototyping"
+      ],
+      "description": {
+        "paragraph1": "Olivia Brown brings over 6 years of dedicated experience in UI/UX design. Her career is marked by a strong portfolio that highlights her ability to create interfaces that are not only visually striking but also functionally effective. Olivia excels in understanding user behavior and needs, translating this understanding into designs that enhance the overall user experience. Her work is characterized by a user-centric approach, ensuring that every design decision contributes to a more intuitive and engaging interface.",
+        "paragraph2": "Her proficiency in tools like Figma, Sketch, and Adobe XD allows her to produce high-quality prototypes and design mockups with precision. Figma’s collaborative features enable Olivia to work seamlessly with teams, facilitating real-time feedback and iterative design improvements. Sketch and Adobe XD are integral to her process, providing her with the flexibility to craft detailed designs and interactive prototypes that communicate design concepts clearly and effectively.",
+        "paragraph3": "Olivia’s design philosophy revolves around creating user-centered solutions that balance aesthetics with functionality. She conducts thorough UX research to gather insights into user needs and preferences, which informs her design decisions. Her ability to integrate research findings into practical design solutions ensures that the final product aligns with user expectations and delivers a satisfying experience. Her prototyping skills enable her to visualize and test design ideas early in the process, refining them based on user feedback and testing outcomes.",
+        "paragraph4": "Throughout her career, Olivia has demonstrated a commitment to excellence and innovation in UI/UX design. Her ability to adapt to evolving design trends and technologies ensures that her designs remain relevant and effective. She approaches each project with a fresh perspective, leveraging her experience to tackle design challenges and deliver solutions that exceed client expectations. Olivia’s dedication to creating user-friendly and visually appealing interfaces makes her a valuable asset to any design team."
+      },
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": false
+      },
+      "onTimeDelivery": "93%",
+      "onBudget": "89%",
+      "acceptRate": "82%",
+      "repeatHireRate": "68%",
+      "overallRating": 4.6,
+      "numberOfReviews": 85,
+      "amountEarned": "$140,000",
+      "successfullyCompletedJobs": "96%"
+    },    
+    {
+      "id": "E011",
+      "name": "Liam Thompson",
+      "designation": "Mobile App Developer",
+      "skills": ["Flutter", "Dart", "iOS", "Android"],
+      "experience": 4,
+      "location": "Toronto, Canada",
+      "profilePicture": "images/11.jpg",
+      "currentCompany": "App Masters",
+      "availability": "Available",
+      "hourlyCharges": "$95 USD / hour",
+      "bio": "Liam Thompson is a skilled Mobile App Developer based in Toronto, Canada, with a focus on cross-platform app development using Flutter and Dart. With 4 years of experience, Liam excels in creating high-performance applications for both iOS and Android platforms. His expertise extends to UI/UX design, ensuring that his apps provide a seamless and engaging user experience. Known for his commitment to excellence and innovative approach, Liam stands out in the mobile app development field. Currently with App Masters, he is available for new opportunities to deliver top-notch mobile solutions.",
+      "services": [
+        "Mobile App Development",
+        "Cross-Platform Apps",
+        "UI/UX Design"
+      ],
+      "description": {
+        "paragraph1": "Liam Thompson has established himself as a proficient Mobile App Developer with a focus on creating cross-platform solutions using Flutter and Dart. Over his 4-year career, he has successfully developed and launched numerous applications across both iOS and Android platforms. His technical expertise in Flutter allows him to build apps that are not only high-performing but also maintainable and scalable. Dart, being the language underpinning Flutter, complements his development skills, enabling him to write efficient and robust code that meets modern mobile app standards.",
+        "paragraph2": "Liam’s experience with Flutter extends to integrating complex features and functionalities that cater to various user needs. He is adept at handling challenges related to mobile app development, such as optimizing performance and ensuring a smooth user experience. His ability to debug and resolve issues quickly contributes to the overall reliability of the applications he develops. Liam's proficiency in leveraging Flutter's widget-based architecture helps in creating visually appealing and interactive user interfaces that enhance the overall app experience.",
+        "paragraph3": "In addition to his technical skills, Liam has a strong foundation in UI/UX design, which is crucial for developing apps that are not only functional but also user-friendly. His design approach focuses on understanding user behavior and preferences, translating these insights into intuitive and aesthetically pleasing app interfaces. This dual expertise in both development and design allows Liam to deliver comprehensive solutions that address both the technical and visual aspects of mobile applications, ensuring a cohesive and engaging user experience.",
+        "paragraph4": "Liam is also committed to staying updated with the latest trends and advancements in mobile app development. His proactive approach to learning and adapting new technologies ensures that his skill set remains relevant in the ever-evolving tech landscape. Clients benefit from his forward-thinking approach and his dedication to delivering high-quality applications that meet and exceed industry standards. With a solid reputation for on-time delivery and effective project management, Liam Thompson is a reliable choice for any mobile app development project."
+      },
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": false
+      },
+      "onTimeDelivery": "94%",
+      "onBudget": "89%",
+      "acceptRate": "85%",
+      "repeatHireRate": "70%",
+      "overallRating": 4.5,
+      "numberOfReviews": 80,
+      "amountEarned": "$120,000",
+      "successfullyCompletedJobs": "96%"
+    },    
+    {
+      "id": "E012",
+      "name": "Mia Patel",
+      "designation": "Cybersecurity Specialist",
+      "skills": ["Network Security", "Penetration Testing", "Ethical Hacking"],
+      "experience": 8,
+      "location": "Dubai, UAE",
+      "profilePicture": "images/12.jpg",
+      "currentCompany": "SecureTech",
+      "availability": "Currently Employed",
+      "hourlyCharges": "$120 USD / hour",
+      "bio": "Mia Patel is a seasoned Cybersecurity Specialist based in Dubai, UAE, with extensive expertise in network security, penetration testing, and ethical hacking. With 8 years of experience, Mia has dedicated her career to safeguarding organizations from cyber threats. Her skills in identifying and addressing vulnerabilities are essential in the ever-evolving digital landscape. Known for her proactive approach and ability to stay ahead of emerging threats, Mia is a valuable asset for any team focused on protecting sensitive information. Currently with SecureTech, she is committed to delivering top-notch cybersecurity solutions to ensure robust protection.",
+      "services": [
+        "Security Audits",
+        "Penetration Testing",
+        "Cybersecurity Consulting"
+      ],
+      "description": {
+        "paragraph1": "Mia Patel brings over 8 years of hands-on experience in the field of cybersecurity, specializing in securing networks and systems against a wide range of cyber threats. Her deep understanding of network security principles allows her to design and implement robust security measures tailored to the specific needs of each organization. Mia's extensive experience includes working with various tools and technologies to conduct thorough security audits and assessments. Her proactive approach in identifying potential vulnerabilities and addressing them before they can be exploited ensures the protection of critical assets.",
+        "paragraph2": "One of Mia's core competencies is penetration testing, where she simulates cyber-attacks to uncover security weaknesses in systems and applications. This process helps organizations to understand their security posture and take necessary actions to enhance their defenses. Mia employs a combination of manual testing and automated tools to thoroughly assess security controls. Her findings and recommendations are presented in detailed reports that provide actionable insights for improving overall security. Her work in this area is crucial for organizations aiming to stay ahead of sophisticated threats and attacks.",
+        "paragraph3": "In addition to her technical skills, Mia is also adept at providing cybersecurity consulting services. She offers expert advice on various aspects of information security, including risk management, compliance with regulations, and security best practices. Her consulting services are designed to help organizations develop and implement comprehensive security strategies that align with their business objectives. Mia's ability to communicate complex security concepts in a clear and concise manner makes her an effective advisor and collaborator for stakeholders at all levels.",
+        "paragraph4": "Mia is committed to continuous learning and staying updated with the latest advancements in cybersecurity. She regularly participates in industry conferences, training programs, and professional development activities to enhance her skills and knowledge. Her dedication to staying current with emerging threats and technologies ensures that she can provide the most relevant and effective solutions to her clients. With a proven track record of successful project delivery and a high level of client satisfaction, Mia Patel is a trusted expert in the field of cybersecurity."
+      },
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": true
+      },
+      "onTimeDelivery": "96%",
+      "onBudget": "92%",
+      "acceptRate": "88%",
+      "repeatHireRate": "75%",
+      "overallRating": 4.7,
+      "numberOfReviews": 140,
+      "amountEarned": "$250,000",
+      "successfullyCompletedJobs": "98%"
+    },    
+    {
+      "id": "E013",
+      "name": "Lucas White",
+      "designation": "Blockchain Developer",
+      "skills": ["Solidity", "Ethereum", "Smart Contracts"],
+      "experience": 5,
+      "location": "Zurich, Switzerland",
+      "profilePicture": "images/13.jpg",
+      "currentCompany": "Blockchain Solutions",
+      "availability": "Available",
+      "hourlyCharges": "$110 USD / hour",
+      "bio": "Lucas White is a proficient Blockchain Developer based in Zurich, Switzerland, with extensive experience in Solidity, Ethereum, and smart contract development. With a strong grasp of blockchain technology, Lucas creates secure and efficient solutions for complex challenges. His expertise includes designing and deploying decentralized applications (dApps) and smart contracts that ensure transparency and reliability. Committed to innovation and staying current with industry trends, Lucas delivers high-quality outcomes in every project. His ability to integrate blockchain technology into practical applications makes him a valuable asset in the ever-evolving blockchain development landscape. Currently with Blockchain Solutions, he is available for new opportunities.",
+      "services": [
+        "Blockchain Development",
+        "Smart Contracts",
+        "Decentralized Applications"
+      ],
+      "description": {
+        "paragraph1": "Lucas White has established himself as a skilled Blockchain Developer with 5 years of hands-on experience in the blockchain industry. His proficiency in Solidity and Ethereum has enabled him to create and implement smart contracts that are both secure and efficient. Lucas’s work is focused on leveraging blockchain technology to enhance the functionality and security of various applications. His in-depth knowledge of decentralized systems allows him to address complex challenges and provide innovative solutions for his clients.",
+        "paragraph2": "Throughout his career, Lucas has been involved in developing smart contracts that automate and enforce agreements on the blockchain. These smart contracts are essential for a wide range of applications, from financial transactions to decentralized voting systems. Lucas’s ability to write clean and reliable code ensures that these contracts function as intended and meet the highest security standards. His expertise also extends to the deployment and management of these contracts on the Ethereum platform, ensuring their smooth operation and integration with other systems.",
+        "paragraph3": "In addition to smart contracts, Lucas is experienced in developing decentralized applications (dApps) that operate on blockchain networks. These applications are designed to be transparent, secure, and resistant to tampering. Lucas’s work in this area involves creating user-friendly interfaces and robust backend systems that leverage the decentralized nature of blockchain technology. His approach to dApp development focuses on providing seamless user experiences while maintaining the integrity and security of the underlying blockchain protocols.",
+        "paragraph4": "Lucas is committed to staying at the forefront of blockchain technology by continuously updating his skills and knowledge. He actively participates in industry events, follows the latest trends, and engages with the blockchain community to stay informed about emerging technologies and best practices. This dedication to ongoing learning ensures that Lucas can offer cutting-edge solutions to his clients and remain a valuable asset in the ever-evolving field of blockchain development."
+      },
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": false
+      },
+      "onTimeDelivery": "95%",
+      "onBudget": "91%",
+      "acceptRate": "86%",
+      "repeatHireRate": "73%",
+      "overallRating": 4.8,
+      "numberOfReviews": 110,
+      "amountEarned": "$180,000",
+      "successfullyCompletedJobs": "98%"
+    },    
+    {
+      "id": "E014",
+      "name": "Emma Nguyen",
+      "designation": "AI/ML Engineer",
+      "skills": ["TensorFlow", "Keras", "Python"],
+      "experience": 6,
+      "location": "Ho Chi Minh City, Vietnam",
+      "profilePicture": "images/14.jpg",
+      "currentCompany": "AI Innovations",
+      "availability": "Open to Offers",
+      "hourlyCharges": "$120 USD / hour",
+      "bio": "Emma Nguyen is a highly skilled AI/ML Engineer based in Ho Chi Minh City, Vietnam, with a strong background in designing and implementing machine learning models. Proficient in TensorFlow, Keras, and Python, Emma excels in creating advanced AI solutions that drive significant business outcomes. Her expertise lies in building models that analyze data and provide actionable insights, enhancing decision-making processes. Known for her commitment to staying ahead in the dynamic field of AI, Emma’s adaptability and innovative approach make her a valuable asset to any AI-driven project. Currently with AI Innovations, she is open to new opportunities.",
+      "services": [
+        "AI Model Development",
+        "Machine Learning",
+        "Data Analysis"
+      ],
+      "description": {
+        "paragraph1": "Emma Nguyen brings over 6 years of experience to the field of AI and machine learning. Her extensive work with TensorFlow and Keras has allowed her to develop cutting-edge machine learning models that address complex problems across various industries. Emma's expertise in Python further enhances her ability to create and refine algorithms that drive meaningful results. Her approach to model development emphasizes accuracy, efficiency, and scalability, ensuring that her solutions meet the highest standards of performance.",
+        "paragraph2": "Throughout her career, Emma has been involved in a diverse array of projects, from predictive analytics to AI-driven applications. Her ability to analyze data and extract valuable insights has been instrumental in delivering solutions that are both effective and impactful. Emma's work involves not only the creation of models but also their deployment and integration into existing systems. This comprehensive approach ensures that her solutions are not only innovative but also practical and usable in real-world scenarios.",
+        "paragraph3": "In addition to her technical skills, Emma is adept at collaborating with cross-functional teams to understand project requirements and deliver tailored solutions. Her ability to communicate complex concepts in a clear and concise manner facilitates effective teamwork and project success. Emma's commitment to staying updated with the latest advancements in AI and machine learning enables her to incorporate the most recent technologies and methodologies into her work, maintaining a competitive edge in the industry.",
+        "paragraph4": "Emma's dedication to her craft is reflected in her track record of successful projects and satisfied clients. She continuously seeks to improve her skills and expand her knowledge in the rapidly evolving field of AI. Her passion for innovation and problem-solving drives her to tackle new challenges and explore emerging technologies, making her a valuable contributor to any AI-focused initiative. Emma's blend of experience, expertise, and enthusiasm makes her a standout professional in the AI and machine learning community."
+      },
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": true
+      },
+      "onTimeDelivery": "92%",
+      "onBudget": "88%",
+      "acceptRate": "84%",
+      "repeatHireRate": "71%",
+      "overallRating": 4.7,
+      "numberOfReviews": 95,
+      "amountEarned": "$150,000",
+      "successfullyCompletedJobs": "97%"
+    },    
+    {
+      "id": "E015",
+      "name": "Noah Kim",
+      "designation": "Game Developer",
+      "skills": ["Unity", "C#", "Game Design"],
+      "experience": 4,
+      "location": "Seoul, South Korea",
+      "profilePicture": "images/15.jpg",
+      "currentCompany": "Game On",
+      "availability": "Available",
+      "hourlyCharges": "$100 USD / hour",
+      "bio": "Noah Kim is a skilled game developer based in Seoul, South Korea. Specializing in Unity and C#, he creates immersive and engaging gaming experiences. Currently with Game On, Noah is known for his innovative game design approach, delivering high-quality projects that captivate players. His expertise ranges from indie games to larger titles, reflecting his creativity and dedication to producing exceptional gameplay. With a strong focus on compelling user experiences and intricate game mechanics, Noah stands out in the gaming industry for his commitment to crafting memorable and enjoyable games.",
+      "services": [
+        "Game Development",
+        "3D Modeling",
+        "Game Mechanics Design"
+      ],
+      "description": {
+        "paragraph1": "Noah Kim has been a dedicated game developer for 4 years, contributing to a variety of projects ranging from indie games to larger commercial titles. His proficiency in Unity and C# enables him to create dynamic and interactive game environments. Noah's deep understanding of game mechanics and design principles allows him to develop games that are not only visually appealing but also engaging and fun to play.",
+        "paragraph2": "Throughout his career, Noah has focused on delivering high-quality gameplay experiences by integrating complex game mechanics and designing detailed 3D models. His work involves collaborating with artists, designers, and other developers to ensure that all aspects of the game come together seamlessly. Noah's ability to adapt to different project requirements and his attention to detail are key factors in his success as a game developer.",
+        "paragraph3": "Noah's approach to game development is characterized by his creative problem-solving skills and his commitment to innovation. He continually explores new technologies and techniques to enhance his game development process. His portfolio includes a range of games that showcase his versatility and his ability to tackle diverse challenges in the gaming industry.",
+        "paragraph4": "In addition to his technical skills, Noah is known for his collaborative spirit and his dedication to producing games that meet the highest standards of quality. His passion for game development drives him to push the boundaries of what is possible, resulting in games that are both technically impressive and enjoyable to play. Noah's experience and expertise make him a valuable asset for any game development project."
+      },
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": false
+      },
+      "onTimeDelivery": "90%",
+      "onBudget": "85%",
+      "acceptRate": "80%",
+      "repeatHireRate": "65%",
+      "overallRating": 4.5,
+      "numberOfReviews": 75,
+      "amountEarned": "$100,000",
+      "successfullyCompletedJobs": "95%"
+    },    
+    {
+      "id": "E016",
+      "name": "Isabella Garcia",
+      "designation": "Data Analyst",
+      "skills": ["Excel", "Tableau", "SQL"],
+      "experience": 3,
+      "location": "Mexico City, Mexico",
+      "profilePicture": "images/16.jpg",
+      "currentCompany": "Data Driven Solutions",
+      "availability": "Currently Employed",
+      "hourlyCharges": "$80 USD / hour",
+      "bio": "Isabella Garcia is a skilled Data Analyst based in Mexico City, Mexico, with expertise in data visualization and analysis using Excel, Tableau, and SQL. She excels at transforming raw data into insightful, actionable information. Her proficiency in creating detailed reports and interactive dashboards supports effective decision-making and helps organizations leverage data for strategic advantage. Currently with Data Driven Solutions, Isabella is dedicated to delivering high-quality analysis and visualizations. Her ability to provide clear and actionable insights makes her a valuable asset for any team focused on data-driven decision-making and strategic planning.",
+      "services": [
+        "Data Analysis",
+        "Reporting",
+        "Dashboard Development"
+      ],
+      "description": {
+        "paragraph1": "Isabella Garcia has been working as a data analyst for 3 years, during which she has developed a strong proficiency in data visualization and analysis. Her technical skills in Excel, Tableau, and SQL enable her to handle complex datasets and extract valuable insights that drive business decisions. Isabella's ability to analyze data trends and patterns helps organizations make informed strategic choices.",
+        "paragraph2": "In her role at Data Driven Solutions, Isabella focuses on transforming raw data into clear and actionable insights. She is skilled at designing and developing comprehensive reports and interactive dashboards that provide a detailed view of key metrics and performance indicators. Her work supports various departments by delivering crucial data insights that enhance operational efficiency and effectiveness.",
+        "paragraph3": "Isabella's expertise extends beyond data analysis to include a strong emphasis on data visualization. She utilizes Tableau to create engaging and user-friendly dashboards that present complex data in an easily understandable format. Her proficiency with Excel further enhances her ability to perform detailed data analysis and generate accurate, timely reports.",
+        "paragraph4": "Isabella is dedicated to continuous improvement and staying updated with the latest advancements in data analysis tools and techniques. Her commitment to delivering high-quality results and her analytical skills make her a valuable asset to any team. Her work not only helps organizations interpret data but also empowers them to make data-driven decisions that contribute to their success."
+      },
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": true
+      },
+      "onTimeDelivery": "93%",
+      "onBudget": "89%",
+      "acceptRate": "82%",
+      "repeatHireRate": "68%",
+      "overallRating": 4.6,
+      "numberOfReviews": 65,
+      "amountEarned": "$90,000",
+      "successfullyCompletedJobs": "96%"
+    },    
+    {
+      "id": "E017",
+      "name": "Ethan Lee",
+      "designation": "DevOps Engineer",
+      "skills": ["AWS", "Jenkins", "CI/CD"],
+      "experience": 7,
+      "location": "Hong Kong",
+      "profilePicture": "images/17.jpg",
+      "currentCompany": "CloudOps Solutions",
+      "availability": "Open to Offers",
+      "hourlyCharges": "$110 USD / hour",
+      "bio": "Ethan Lee is a highly skilled DevOps Engineer based in Hong Kong, specializing in AWS, Jenkins, and CI/CD pipelines. Passionate about automation and optimizing cloud infrastructure, Ethan excels in improving development and deployment processes. His expertise in creating efficient and reliable systems supports organizations in achieving greater operational efficiency. Currently with CloudOps Solutions, Ethan is open to new opportunities and is dedicated to enhancing cloud architecture and infrastructure automation. His commitment to streamlining operations and leveraging advanced technologies makes him a valuable asset for any team focused on optimizing their DevOps practices.",
+      "services": [
+        "Cloud Architecture",
+        "CI/CD Implementation",
+        "Infrastructure Automation"
+      ],
+      "description": {
+        "paragraph1": "Ethan Lee has been working as a DevOps engineer for 7 years, focusing on enhancing and automating the development and deployment lifecycle. His deep knowledge of AWS and Jenkins allows him to create and manage robust CI/CD pipelines that streamline the process of delivering software updates. Ethan’s approach to DevOps emphasizes efficiency, reliability, and scalability, ensuring that projects meet the highest standards of quality and performance.",
+        "paragraph2": "At CloudOps Solutions, Ethan plays a critical role in designing and implementing cloud architecture that supports business objectives. His expertise in AWS enables him to build secure and scalable cloud environments that accommodate various application needs. Ethan’s experience with infrastructure automation tools further enhances his ability to optimize workflows and reduce manual intervention, leading to faster and more reliable deployments.",
+        "paragraph3": "Ethan’s proficiency in CI/CD practices is a key asset for teams looking to accelerate their development cycles. By integrating continuous integration and continuous deployment processes, he helps organizations maintain a steady flow of updates and improvements. His work with Jenkins and other CI/CD tools ensures that code changes are thoroughly tested and deployed with minimal risk of disruption, contributing to a smoother and more predictable release process.",
+        "paragraph4": "Ethan is dedicated to staying at the forefront of DevOps practices and technologies. His passion for automation and cloud infrastructure drives him to continually refine and enhance his skills. With a proven track record of successful project delivery and a strong focus on optimizing development and deployment processes, Ethan Lee is well-equipped to tackle complex challenges and drive technological innovation."
+      },
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": false
+      },
+      "onTimeDelivery": "94%",
+      "onBudget": "91%",
+      "acceptRate": "87%",
+      "repeatHireRate": "72%",
+      "overallRating": 4.7,
+      "numberOfReviews": 105,
+      "amountEarned": "$190,000",
+      "successfullyCompletedJobs": "98%"
+    },    
+    {
+      "id": "E018",
+      "name": "Sophia Rodriguez",
+      "designation": "Full Stack Developer",
+      "skills": ["JavaScript", "React", "Node.js"],
+      "experience": 5,
+      "location": "Madrid, Spain",
+      "profilePicture": "images/18.jpg",
+      "currentCompany": "Web Innovators",
+      "availability": "Available",
+      "hourlyCharges": "$100 USD / hour",
+      "bio": "Sophia Rodriguez is a skilled Full Stack Developer based in Madrid, Spain, specializing in JavaScript, React, and Node.js. She focuses on creating scalable web applications and excels in both frontend and backend development. Sophia’s expertise lies in delivering high-quality solutions that address complex technical challenges and meet client needs effectively. Currently with Web Innovators, she is available for new opportunities and is committed to building robust and efficient web applications. Her ability to handle diverse development tasks makes her a valuable asset for projects requiring comprehensive technical expertise and innovative solutions.",
+      "services": [
+        "Full Stack Development",
+        "Web Application Development",
+        "API Integration"
+      ],
+      "description": {
+        "paragraph1": "Sophia Rodriguez has 5 years of experience as a Full Stack Developer, demonstrating her proficiency in both frontend and backend technologies. Her extensive knowledge of JavaScript, React, and Node.js equips her to handle all aspects of web application development, from designing user interfaces to implementing server-side logic. Sophia’s holistic approach ensures that every project benefits from a seamless integration of technologies, resulting in robust and scalable applications.",
+        "paragraph2": "In her role at Web Innovators, Sophia leverages her expertise to create dynamic and interactive web applications that enhance user experiences and drive business growth. Her proficiency in React allows her to build responsive and engaging user interfaces, while her experience with Node.js enables her to develop efficient backend services that handle complex data interactions and business logic. Sophia’s commitment to using modern frameworks and libraries ensures that her solutions are both innovative and reliable.",
+        "paragraph3": "Sophia’s ability to integrate APIs effectively is a key asset in her full stack development toolkit. She excels at designing and implementing API solutions that facilitate seamless communication between different parts of a web application. Whether it's integrating third-party services or developing custom APIs, Sophia’s attention to detail and thorough understanding of API design principles contribute to the success of her projects. Her work ensures that applications are both functional and adaptable to changing requirements.",
+        "paragraph4": "Throughout her career, Sophia has demonstrated a strong commitment to delivering high-quality solutions that meet client expectations and project goals. Her problem-solving skills and technical expertise make her a valuable asset to any development team. By staying up-to-date with industry trends and continuously improving her skills, Sophia Rodriguez remains at the forefront of full stack development, ready to tackle new challenges and drive innovation in web application development."
+      },
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": true
+      },
+      "onTimeDelivery": "92%",
+      "onBudget": "88%",
+      "acceptRate": "84%",
+      "repeatHireRate": "71%",
+      "overallRating": 4.6,
+      "numberOfReviews": 90,
+      "amountEarned": "$160,000",
+      "successfullyCompletedJobs": "97%"
+    },    
+    {
+      "id": "E019",
+      "name": "Michael Adams",
+      "designation": "Cloud Architect",
+      "skills": ["Azure", "AWS", "Cloud Security"],
+      "experience": 10,
+      "location": "San Francisco, USA",
+      "profilePicture": "images/19.jpg",
+      "currentCompany": "Cloud Pioneers",
+      "availability": "Currently Employed",
+      "hourlyCharges": "$120 USD / hour",
+      "bio": "Michael Adams is an experienced Cloud Architect based in San Francisco, USA, specializing in designing and implementing secure and scalable cloud solutions. Proficient in Azure, AWS, and cloud security, Michael excels in creating robust cloud architectures that adhere to the highest industry standards. Currently with Cloud Pioneers, he is dedicated to delivering tailored cloud solutions that address complex business needs. His extensive experience with Fortune 500 companies underscores his capability to manage large-scale cloud projects and ensure optimal performance and security. Michael's expertise makes him a key asset for any organization looking to leverage cloud technologies effectively.",
+      "services": [
+        "Cloud Architecture",
+        "Security Audits",
+        "Cloud Migration"
+      ],
+      "description": {
+        "paragraph1": "Michael Adams brings 10 years of expertise as a Cloud Architect, specializing in designing and implementing advanced cloud solutions. His deep knowledge of Azure and AWS allows him to create scalable and secure cloud infrastructures that support the operational needs of large enterprises. Michael’s work with Fortune 500 companies underscores his capability to manage complex cloud projects and deliver solutions that align with strategic business goals.",
+        "paragraph2": "In his role at Cloud Pioneers, Michael focuses on developing cloud architectures that enhance operational efficiency and security. His proficiency in cloud security ensures that systems are protected against threats, while his expertise in cloud migration facilitates smooth transitions from on-premises to cloud environments. Michael’s strategic approach to cloud design helps organizations leverage cloud technology effectively and sustainably.",
+        "paragraph3": "Michael's comprehensive understanding of cloud security best practices allows him to conduct thorough security audits, identifying and mitigating potential vulnerabilities. His commitment to maintaining the highest security standards ensures that cloud environments are resilient and compliant with industry regulations. Michael’s proactive approach to security contributes to the overall integrity and reliability of cloud solutions.",
+        "paragraph4": "Throughout his career, Michael has demonstrated a strong ability to adapt to evolving cloud technologies and industry trends. His dedication to continuous learning and professional development ensures that he remains at the forefront of cloud architecture advancements. Michael Adams' expertise and experience make him a valuable asset to any organization seeking to optimize their cloud infrastructure and achieve long-term success."
+      },
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": false
+      },
+      "onTimeDelivery": "97%",
+      "onBudget": "94%",
+      "acceptRate": "90%",
+      "repeatHireRate": "77%",
+      "overallRating": 4.8,
+      "numberOfReviews": 200,
+      "amountEarned": "$300,000",
+      "successfullyCompletedJobs": "99%"
+    },    
+    {
+      "id": "E020",
+      "name": "Emily Johnson",
+      "designation": "AI Researcher",
+      "skills": ["Deep Learning", "TensorFlow", "Natural Language Processing"],
+      "experience": 6,
+      "location": "Berlin, Germany",
+      "profilePicture": "images/20.jpg",
+      "currentCompany": "AI Labs",
+      "availability": "Open to Offers",
+      "hourlyCharges": "$110 USD / hour",
+      "bio": "Emily Johnson is a seasoned AI Researcher based in Berlin, Germany, with expertise in deep learning and natural language processing. Proficient in TensorFlow and Python, Emily specializes in developing innovative AI models and applications that push the boundaries of current technology. Her work involves applying cutting-edge techniques to solve complex problems and advance the field of artificial intelligence. Currently with AI Labs, Emily is open to new opportunities and is dedicated to creating impactful AI solutions that drive technological progress. Her advanced skills and research capabilities make her a valuable asset in the realm of AI development.",
+      "services": [
+        "AI Research",
+        "Model Development",
+        "NLP Applications"
+      ],
+      "description": {
+        "paragraph1": "Emily Johnson is an accomplished AI researcher with a focus on deep learning and natural language processing. Over her 6-year career, she has made significant contributions to the field by developing advanced AI models that leverage the power of TensorFlow and Python. Her research emphasizes creating solutions that address complex challenges and enhance the capabilities of AI systems.",
+        "paragraph2": "At AI Labs, Emily leads projects that explore new methodologies in deep learning and NLP. Her expertise in TensorFlow allows her to build and train sophisticated models that achieve high performance in various applications. Emily’s work in model development is characterized by a rigorous approach to experimentation and optimization, resulting in state-of-the-art AI solutions.",
+        "paragraph3": "Emily’s research in natural language processing focuses on improving the interaction between machines and humans. By applying advanced NLP techniques, she develops applications that understand and generate human language with greater accuracy. Her contributions to NLP include designing algorithms that enhance text analysis, language generation, and sentiment understanding.",
+        "paragraph4": "Emily Johnson's dedication to AI research and her ability to stay abreast of emerging technologies make her a valuable asset in the field. Her innovative approach and commitment to excellence drive her success in developing impactful AI applications. With a strong track record of delivering high-quality research and solutions, Emily is well-positioned to tackle the future of artificial intelligence."
+      },
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": true
+      },
+      "onTimeDelivery": "94%",
+      "onBudget": "89%",
+      "acceptRate": "85%",
+      "repeatHireRate": "70%",
+      "overallRating": 4.7,
+      "numberOfReviews": 110,
+      "amountEarned": "$180,000",
+      "successfullyCompletedJobs": "97%"
+    },    
+    {
+      "id": "E021",
+      "name": "Oliver Jones",
+      "designation": "Embedded Systems Engineer",
+      "skills": ["C", "C++", "RTOS"],
+      "experience": 7,
+      "location": "Sydney, Australia",
+      "profilePicture": "images/21.jpg",
+      "currentCompany": "Tech Embedded",
+      "availability": "Available",
+      "hourlyCharges": "$100 USD / hour",
+      "bio": "Oliver Jones is a skilled Embedded Systems Engineer based in Sydney, Australia, with a specialization in C, C++, and real-time operating systems (RTOS). Known for his expertise in designing and developing high-performance firmware and applications, Oliver excels in creating robust solutions for diverse hardware platforms. His work involves developing efficient and reliable embedded systems that meet precise technical requirements. Currently with Tech Embedded, Oliver is available for new opportunities and is dedicated to delivering innovative solutions in the field of embedded systems engineering. His proficiency in firmware engineering and RTOS development makes him a valuable asset in this domain.",
+      "services": [
+        "Embedded Systems Design",
+        "RTOS Development",
+        "Firmware Engineering"
+      ],
+      "description": {
+        "paragraph1": "Oliver Jones brings 7 years of expertise in embedded systems development, focusing on creating reliable and efficient firmware and applications. His skills in C and C++ enable him to handle complex programming tasks, while his experience with RTOS ensures real-time performance for critical systems.",
+        "paragraph2": "At Tech Embedded, Oliver is responsible for designing embedded systems that meet stringent performance and reliability standards. His work involves developing firmware for a wide range of hardware platforms, optimizing code for efficiency, and ensuring that systems operate seamlessly under real-time constraints.",
+        "paragraph3": "Oliver's proficiency in C and C++ allows him to write robust and maintainable code for embedded applications. He is adept at troubleshooting and debugging complex issues, ensuring that firmware is stable and performs as expected. His experience with RTOS further enhances his ability to create systems that meet rigorous timing and resource requirements.",
+        "paragraph4": "Oliver Jones's commitment to excellence in embedded systems engineering makes him a valuable asset for projects that require precise control and high performance. His extensive experience and technical skills enable him to deliver solutions that meet the needs of diverse industries, from consumer electronics to industrial automation."
+      },
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": false
+      },
+      "onTimeDelivery": "91%",
+      "onBudget": "86%",
+      "acceptRate": "79%",
+      "repeatHireRate": "64%",
+      "overallRating": 4.5,
+      "numberOfReviews": 70,
+      "amountEarned": "$110,000",
+      "successfullyCompletedJobs": "94%"
+    },    
+    {
+      "id": "E022",
+      "name": "Ava Martinez",
+      "designation": "UX/UI Designer",
+      "skills": ["Figma", "Sketch", "Adobe XD"],
+      "experience": 5,
+      "location": "Paris, France",
+      "profilePicture": "images/22.jpg",
+      "currentCompany": "Design Innovators",
+      "availability": "Available",
+      "hourlyCharges": "$90 USD / hour",
+      "bio": "Ava Martinez is a talented UX/UI Designer based in Paris, France, known for her expertise in creating engaging and intuitive user interfaces. Specializing in Figma, Sketch, and Adobe XD, Ava is dedicated to delivering high-quality design solutions that enhance user experiences. Her work involves crafting visually appealing and user-friendly designs that effectively communicate client objectives. Currently with Design Innovators, Ava is available for new projects and brings a keen eye for detail and a passion for design excellence to every assignment. Her ability to blend aesthetics with functionality makes her a standout professional in the UX/UI design field.",
+      "services": [
+        "UI/UX Design",
+        "Wireframing",
+        "Prototyping"
+      ],
+      "description": {
+        "paragraph1": "With 5 years of experience in the field, Ava has honed her skills in designing intuitive and aesthetically pleasing user interfaces. Her work focuses on understanding user needs and creating designs that enhance usability and engagement.",
+        "paragraph2": "At Design Innovators, Ava leads design projects from concept to completion, ensuring that each interface is user-centered and visually appealing. Her expertise in Figma, Sketch, and Adobe XD allows her to craft detailed wireframes and prototypes that guide the development process.",
+        "paragraph3": "Ava’s approach to UX/UI design involves close collaboration with clients and stakeholders to capture their vision and translate it into functional design solutions. She excels at balancing creativity with practicality to produce designs that not only look great but also perform effectively.",
+        "paragraph4": "Her dedication to continuous learning and staying updated with the latest design trends ensures that her work remains at the cutting edge of UX/UI design. Ava's track record of delivering successful projects and her commitment to quality make her a valuable asset to any design team."
+      },
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": true
+      },
+      "onTimeDelivery": "93%",
+      "onBudget": "90%",
+      "acceptRate": "83%",
+      "repeatHireRate": "70%",
+      "overallRating": 4.6,
+      "numberOfReviews": 85,
+      "amountEarned": "$95,000",
+      "successfullyCompletedJobs": "96%"
+    },    
+    {
+      "id": "E023",
+      "name": "Ethan Wilson",
+      "designation": "Network Engineer",
+      "skills": ["Cisco", "Network Security", "TCP/IP"],
+      "experience": 6,
+      "location": "Chicago, USA",
+      "profilePicture": "images/23.jpg",
+      "currentCompany": "NetSec Solutions",
+      "availability": "Open to Offers",
+      "hourlyCharges": "$85 USD / hour",
+      "bio": "Ethan Wilson is a seasoned Network Engineer based in Chicago, USA, with extensive expertise in Cisco technologies, network security, and TCP/IP protocols. With a strong background in designing and managing robust network infrastructures, Ethan excels in ensuring the reliability and security of network systems. His work at NetSec Solutions involves implementing and optimizing network solutions that meet complex business requirements. Ethan's commitment to maintaining high standards in network performance and security makes him a valuable asset for organizations seeking to enhance their network capabilities. He is open to new opportunities and eager to apply his skills to challenging projects.",
+      "services": [
+        "Network Design",
+        "Security Audits",
+        "Network Troubleshooting"
+      ],
+      "description": {
+        "paragraph1": "With 6 years in the field, Ethan Wilson brings a wealth of knowledge in creating and maintaining complex network systems. His expertise in Cisco networking ensures that he can handle a wide range of networking challenges.",
+        "paragraph2": "Ethan’s skills in network security help protect organizations from potential threats and vulnerabilities. His proficiency in TCP/IP protocols allows him to design efficient and scalable network solutions.",
+        "paragraph3": "At NetSec Solutions, Ethan is responsible for overseeing network design and implementation, performing security audits, and troubleshooting network issues. His attention to detail and problem-solving abilities make him a key player in maintaining network integrity.",
+        "paragraph4": "Ethan’s dedication to staying current with the latest networking technologies and best practices ensures that his solutions are both cutting-edge and effective. His commitment to delivering high-quality work is reflected in his solid track record of successful projects."
+      },
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": false
+      },
+      "onTimeDelivery": "90%",
+      "onBudget": "88%",
+      "acceptRate": "80%",
+      "repeatHireRate": "66%",
+      "overallRating": 4.4,
+      "numberOfReviews": 60,
+      "amountEarned": "$85,000",
+      "successfullyCompletedJobs": "92%"
+    },    
+    {
+      "id": "E024",
+      "name": "Harper Davis",
+      "designation": "Software Tester",
+      "skills": ["Selenium", "JUnit", "Test Automation"],
+      "experience": 4,
+      "location": "Toronto, Canada",
+      "profilePicture": "images/24.jpg",
+      "currentCompany": "TestWorks",
+      "availability": "Currently Employed",
+      "hourlyCharges": "$75 USD / hour",
+      "bio": "Harper Davis is a dedicated Software Tester based in Toronto, Canada, specializing in test automation and quality assurance. With expertise in tools such as Selenium and JUnit, Harper is adept at ensuring the delivery of high-quality software through comprehensive and rigorous testing processes. His role at TestWorks involves developing and executing test cases to identify bugs and ensure software reliability. Harper’s commitment to maintaining high standards in software quality and his ability to adapt to evolving testing technologies make him a valuable contributor to any development team. He is currently employed and focused on delivering excellence in software testing.",
+      "services": [
+        "Test Automation",
+        "Quality Assurance",
+        "Bug Tracking"
+      ],
+      "description": {
+        "paragraph1": "Harper Davis has 4 years of experience in software testing, specializing in automating test cases and ensuring software reliability. His background in using tools like Selenium and JUnit allows him to streamline the testing process and catch issues early.",
+        "paragraph2": "Harper’s work at TestWorks involves developing automated test scripts, performing detailed quality assurance checks, and tracking and documenting bugs. His approach helps maintain high standards of software quality throughout the development cycle.",
+        "paragraph3": "His commitment to test automation enables faster release cycles and more efficient testing processes, which is crucial in today’s fast-paced software development environments. Harper’s attention to detail and problem-solving skills contribute to the overall success of the projects he works on.",
+        "paragraph4": "Despite being currently employed, Harper is open to discussing new opportunities where he can leverage his skills to deliver top-notch quality assurance and test automation solutions."
+      },
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": true
+      },
+      "onTimeDelivery": "92%",
+      "onBudget": "87%",
+      "acceptRate": "82%",
+      "repeatHireRate": "69%",
+      "overallRating": 4.5,
+      "numberOfReviews": 55,
+      "amountEarned": "$75,000",
+      "successfullyCompletedJobs": "93%"
+    },    
+    {
+      "id": "E025",
+      "name": "Ella Brown",
+      "designation": "AR/VR Developer",
+      "skills": ["Unity", "C#", "Augmented Reality"],
+      "experience": 5,
+      "location": "Los Angeles, USA",
+      "profilePicture": "images/25.jpg",
+      "currentCompany": "Immersive Tech",
+      "availability": "Available",
+      "hourlyCharges": "$100 USD / hour",
+      "bio": "Ella Brown is an AR/VR Developer based in Los Angeles, USA, with a focus on creating immersive experiences using Unity and C#. Specializing in augmented and virtual reality, Ella excels at bringing innovative and engaging solutions to life. Her work at Immersive Tech involves designing and developing interactive 3D environments that captivate users and push the boundaries of reality. Ella’s expertise in both technical development and creative design ensures that her projects are not only visually stunning but also highly functional. Her dedication to advancing AR/VR technology makes her a valuable asset in the field of immersive experiences.",
+      "services": [
+        "AR/VR Development",
+        "3D Modeling",
+        "Interactive Experiences"
+      ],
+      "description": {
+        "paragraph1": "Ella has 5 years of experience in the AR/VR field, focusing on developing both augmented reality applications and virtual reality simulations. Her technical skills in Unity and C# enable her to design and implement engaging interactive experiences.",
+        "paragraph2": "At Immersive Tech, Ella works on creating high-quality AR/VR solutions that captivate users and offer new ways to interact with digital environments. Her projects include a variety of applications, from entertainment and gaming to educational simulations.",
+        "paragraph3": "Ella’s work involves everything from conceptualizing immersive experiences to the final implementation, ensuring that the end products are both functional and visually appealing. Her strong background in 3D modeling and interactive design further enhances her development capabilities.",
+        "paragraph4": "Ella is available for new projects and is excited about opportunities that challenge her creativity and technical skills in the AR/VR space."
+      },
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": false
+      },
+      "onTimeDelivery": "94%",
+      "onBudget": "89%",
+      "acceptRate": "86%",
+      "repeatHireRate": "72%",
+      "overallRating": 4.6,
+      "numberOfReviews": 80,
+      "amountEarned": "$110,000",
+      "successfullyCompletedJobs": "96%"
+    },    
+    {
+      "id": "E026",
+      "name": "James Wilson",
+      "designation": "Backend Developer",
+      "skills": ["Node.js", "Express", "MongoDB"],
+      "experience": 6,
+      "location": "Dublin, Ireland",
+      "profilePicture": "images/26.jpg",
+      "currentCompany": "Backend Builders",
+      "availability": "Currently Employed",
+      "hourlyCharges": "$85 USD / hour",
+      "bio": "James Wilson is a dedicated Backend Developer based in Dublin, Ireland, with a specialization in building scalable server-side applications using Node.js, Express, and MongoDB. At Backend Builders, James focuses on creating efficient and high-performance backend solutions that support complex applications. His expertise in designing robust APIs and managing databases ensures seamless integration and reliable system performance. Known for his problem-solving skills and commitment to quality, James consistently delivers backend solutions that meet client needs and drive business success. His technical proficiency and passion for backend development make him a key contributor to any development team.",
+      "services": [
+        "Backend Development",
+        "API Development",
+        "Database Management"
+      ],
+      "description": {
+        "paragraph1": "James brings 6 years of experience in backend development, specializing in building scalable server-side applications. His deep understanding of Node.js and Express allows him to create robust APIs and server-side logic.",
+        "paragraph2": "In his role at Backend Builders, James works on designing and implementing backend solutions that meet the needs of modern applications. His use of MongoDB for database management ensures data integrity and efficient data handling.",
+        "paragraph3": "James's expertise extends to optimizing server performance and ensuring that applications run smoothly under various loads. His problem-solving skills and attention to detail contribute to the overall quality of the backend systems he develops.",
+        "paragraph4": "James is open to new opportunities and is keen to work on projects that challenge his backend development skills and allow him to contribute to innovative solutions."
+      },
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": true
+      },
+      "onTimeDelivery": "93%",
+      "onBudget": "90%",
+      "acceptRate": "84%",
+      "repeatHireRate": "69%",
+      "overallRating": 4.5,
+      "numberOfReviews": 95,
+      "amountEarned": "$125,000",
+      "successfullyCompletedJobs": "94%"
+    },    
+    {
+      "id": "E027",
+      "name": "Chloe Lewis",
+      "designation": "Product Manager",
+      "skills": ["Agile", "Scrum", "Product Roadmapping"],
+      "experience": 8,
+      "location": "Austin, USA",
+      "profilePicture": "images/27.jpg",
+      "currentCompany": "Product Pulse",
+      "availability": "Open to Offers",
+      "hourlyCharges": "$100 USD / hour",
+      "bio": "Chloe Lewis is a seasoned Product Manager based in Austin, USA, with extensive expertise in agile methodologies, Scrum, and product roadmapping. With a strong track record in leading teams and managing product lifecycles, Chloe excels at translating strategic goals into actionable plans. Her proficiency in agile frameworks ensures that products are delivered efficiently and effectively, while her skills in roadmap planning help align development efforts with business objectives. Chloe's dedication to driving product success and her ability to navigate complex project landscapes make her a valuable asset to any organization looking to enhance its product management capabilities.",
+      "services": [
+        "Product Management",
+        "Project Coordination",
+        "Roadmap Planning"
+      ],
+      "description": {
+        "paragraph1": "With 8 years of experience in product management, Chloe is adept at guiding cross-functional teams towards delivering high-quality products. Her background in agile methodologies and Scrum ensures efficient project management and timely delivery.",
+        "paragraph2": "Chloe’s skills in product roadmapping allow her to strategically plan product development and align it with business goals. Her approach to project coordination helps in streamlining processes and improving team productivity.",
+        "paragraph3": "At Product Pulse, Chloe has led numerous successful projects, demonstrating her capability in balancing client expectations with project constraints. Her leadership and problem-solving skills contribute to the overall success of the product lifecycle.",
+        "paragraph4": "Chloe is open to new opportunities and is looking forward to working on innovative projects where her expertise in product management can drive significant business impact."
+      },
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": true
+      },
+      "onTimeDelivery": "95%",
+      "onBudget": "91%",
+      "acceptRate": "88%",
+      "repeatHireRate": "74%",
+      "overallRating": 4.7,
+      "numberOfReviews": 100,
+      "amountEarned": "$150,000",
+      "successfullyCompletedJobs": "97%"
+    },    
+    {
+      "id": "E028",
+      "name": "Liam Harris",
+      "designation": "DevOps Engineer",
+      "skills": ["Docker", "Kubernetes", "CI/CD"],
+      "experience": 6,
+      "location": "Singapore",
+      "profilePicture": "images/28.jpg",
+      "currentCompany": "Ops Experts",
+      "availability": "Available",
+      "hourlyCharges": "$95 USD / hour",
+      "bio": "Liam Harris is a skilled DevOps Engineer based in Singapore, specializing in Docker, Kubernetes, and CI/CD practices. With a solid background in optimizing development and deployment pipelines, Liam focuses on enhancing efficiency and streamlining operations. His expertise in containerization and continuous integration/continuous deployment ensures that development processes are both robust and scalable. Known for his ability to solve complex problems and improve workflows, Liam is dedicated to delivering high-quality solutions that drive operational excellence. His commitment to leveraging modern DevOps tools and practices makes him a valuable asset to any team looking to optimize their software development lifecycle.",
+      "services": [
+        "DevOps Consulting",
+        "CI/CD Pipeline Setup",
+        "Containerization"
+      ],
+      "description": {
+        "paragraph1": "With 6 years of experience in DevOps, Liam has developed a strong expertise in containerization technologies such as Docker and Kubernetes. His work ensures that applications are efficiently managed and deployed in scalable environments.",
+        "paragraph2": "Liam’s proficiency in setting up CI/CD pipelines helps organizations automate their development workflows, reducing manual errors and accelerating the deployment process. His approach to DevOps consulting includes tailoring solutions to meet specific client needs.",
+        "paragraph3": "At Ops Experts, Liam has led multiple successful projects that demonstrate his ability to streamline development processes and improve overall system reliability. His focus on best practices in containerization and continuous integration/deployment drives significant improvements in project delivery.",
+        "paragraph4": "Liam is currently available for new opportunities and is eager to apply his skills to projects that aim to enhance development efficiencies and deployment strategies."
+      },
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": false
+      },
+      "onTimeDelivery": "92%",
+      "onBudget": "87%",
+      "acceptRate": "81%",
+      "repeatHireRate": "68%",
+      "overallRating": 4.6,
+      "numberOfReviews": 75,
+      "amountEarned": "$105,000",
+      "successfullyCompletedJobs": "94%"
+    },    
+    {
+      "id": "E029",
+      "name": "Mia White",
+      "designation": "Blockchain Developer",
+      "skills": ["Ethereum", "Solidity", "Smart Contracts"],
+      "experience": 4,
+      "location": "Zurich, Switzerland",
+      "profilePicture": "images/29.jpg",
+      "currentCompany": "CryptoTech",
+      "availability": "Currently Employed",
+      "hourlyCharges": "$110 USD / hour",
+      "bio": "Mia White is a proficient blockchain developer based in Zurich, Switzerland, specializing in Ethereum, Solidity, and smart contract development. With a strong background in creating innovative solutions on the blockchain, Mia excels at designing and implementing secure, decentralized applications. Her expertise extends to developing robust smart contracts and leveraging blockchain technology to solve complex problems. Known for her problem-solving skills and dedication to pushing the boundaries of blockchain technology, Mia is committed to delivering high-quality, cutting-edge solutions that drive advancements in the industry. Her work reflects a deep understanding of blockchain principles and a passion for technological innovation.",
+      "services": [
+        "Blockchain Development",
+        "Smart Contracts",
+        "Decentralized Applications"
+      ],
+      "description": {
+        "paragraph1": "Mia has 4 years of experience in blockchain development, specializing in Ethereum-based solutions. Her expertise in Solidity allows her to craft secure and efficient smart contracts that meet various business needs.",
+        "paragraph2": "Her work includes developing decentralized applications (dApps) that leverage blockchain technology to provide transparent and tamper-proof solutions. Mia's contributions to the crypto space demonstrate her capability in implementing cutting-edge blockchain features.",
+        "paragraph3": "At CryptoTech, Mia has been instrumental in advancing blockchain projects, delivering high-quality solutions that align with client objectives. Her approach to blockchain development focuses on innovation and security.",
+        "paragraph4": "Although currently employed, Mia is open to exploring new opportunities and projects that push the boundaries of blockchain technology."
+      },
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": false
+      },
+      "onTimeDelivery": "90%",
+      "onBudget": "85%",
+      "acceptRate": "78%",
+      "repeatHireRate": "65%",
+      "overallRating": 4.4,
+      "numberOfReviews": 50,
+      "amountEarned": "$70,000",
+      "successfullyCompletedJobs": "89%"
+    },    
+    {
+      "id": "E030",
+      "name": "Charlotte Green",
+      "designation": "Data Scientist",
+      "skills": ["Python", "Machine Learning", "Data Visualization"],
+      "experience": 7,
+      "location": "Amsterdam, Netherlands",
+      "profilePicture": "images/30.jpg",
+      "currentCompany": "Data Insights",
+      "availability": "Open to Offers",
+      "hourlyCharges": "$130 USD / hour",
+      "bio": "Charlotte Green is a skilled data scientist based in Amsterdam, Netherlands, with expertise in Python, machine learning, and data visualization. Known for her ability to transform complex data into actionable insights, Charlotte excels in developing advanced machine learning models and creating compelling visualizations that drive strategic decision-making. Her work focuses on leveraging data to solve intricate problems and deliver high-impact solutions. With a strong background in programming and a passion for data-driven innovation, Charlotte is dedicated to providing valuable insights and contributing to the advancement of data science in dynamic and meaningful ways.",
+      "services": [
+        "Data Analysis",
+        "Machine Learning Models",
+        "Data Visualization"
+      ],
+      "description": {
+        "paragraph1": "Charlotte has 7 years of experience in data science, specializing in the development of machine learning models and the visualization of complex data sets. Her deep knowledge of Python allows her to handle large datasets and derive meaningful patterns.",
+        "paragraph2": "She has successfully applied her skills to solve complex problems across various industries, providing actionable insights that drive business decisions. Her expertise in data visualization helps in communicating findings effectively to stakeholders.",
+        "paragraph3": "At Data Insights, Charlotte has led projects that have significantly improved data-driven decision-making processes. Her ability to blend technical expertise with strategic thinking ensures the delivery of impactful solutions.",
+        "paragraph4": "Charlotte is open to exploring new opportunities where her skills in data science can contribute to innovative projects and drive further advancements in the field."
+      },
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": true
+      },
+      "onTimeDelivery": "94%",
+      "onBudget": "89%",
+      "acceptRate": "82%",
+      "repeatHireRate": "71%",
+      "overallRating": 4.6,
+      "numberOfReviews": 90,
+      "amountEarned": "$120,000",
+      "successfullyCompletedJobs": "95%"
+    },    
+    {
+      "id": "E031",
+      "name": "Amelia Clark",
+      "designation": "Front-End Developer",
+      "skills": ["Angular", "TypeScript", "CSS"],
+      "experience": 5,
+      "location": "Boston, USA",
+      "profilePicture": "images/31.jpg",
+      "currentCompany": "WebFront",
+      "availability": "Available",
+      "hourlyCharges": "$120 USD / hour",
+      "bio": "Amelia Clark is a talented front-end developer based in Boston, USA, with a focus on Angular, TypeScript, and modern CSS techniques. Known for her passion for creating engaging and user-friendly web applications, Amelia excels in translating complex design concepts into seamless, interactive experiences. Her expertise in Angular and TypeScript enables her to build dynamic, high-performance applications, while her strong grasp of CSS ensures visually appealing and responsive designs. Amelia is dedicated to delivering top-quality solutions and is always eager to tackle new challenges in the realm of front-end development.",
+      "services": [
+        "Front-End Development",
+        "Angular Applications",
+        "UI Design"
+      ],
+      "description": {
+        "paragraph1": "With 5 years of experience in front-end development, Amelia has a proven track record of building dynamic and responsive web applications. Her expertise in Angular and TypeScript allows her to develop complex client-side applications with high performance.",
+        "paragraph2": "Amelia's proficiency in CSS ensures that the interfaces she designs are not only functional but also visually appealing. She applies modern CSS techniques to create seamless user experiences across various devices and screen sizes.",
+        "paragraph3": "At WebFront, Amelia has contributed to several high-profile projects, delivering quality work that meets and exceeds client expectations. Her ability to collaborate effectively with design and development teams ensures that projects are completed on time and to specification.",
+        "paragraph4": "Amelia is open to new opportunities where she can leverage her front-end development skills to build innovative solutions and enhance user experiences."
+      },
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": true
+      },
+      "onTimeDelivery": "91%",
+      "onBudget": "88%",
+      "acceptRate": "80%",
+      "repeatHireRate": "66%",
+      "overallRating": 4.5,
+      "numberOfReviews": 85,
+      "amountEarned": "$95,000",
+      "successfullyCompletedJobs": "92%"
+    },    
+    {
+      "id": "E032",
+      "name": "Henry Thompson",
+      "designation": "Cybersecurity Specialist",
+      "skills": [
+        "Penetration Testing",
+        "Network Security",
+        "Vulnerability Assessment"
+      ],
+      "experience": 8,
+      "location": "London, UK",
+      "profilePicture": "images/32.jpg",
+      "currentCompany": "SecureNet",
+      "availability": "Currently Employed",
+      "hourlyCharges": "$150 USD / hour",
+      "bio": "Henry Thompson is a cybersecurity specialist based in London, UK, with deep expertise in penetration testing, network security, and vulnerability assessment. His dedication to safeguarding systems and data from potential threats is evident in his meticulous approach to identifying and addressing security vulnerabilities. With extensive experience in performing comprehensive security audits and threat analyses, Henry ensures that organizations maintain robust defenses against evolving cyber threats. His commitment to staying ahead of the latest security challenges and providing actionable insights makes him a valuable asset in protecting sensitive information and maintaining secure IT environments.",
+      "services": [
+        "Security Audits",
+        "Penetration Testing",
+        "Threat Analysis"
+      ],
+      "description": {
+        "paragraph1": "Henry has 8 years of experience in cybersecurity, focusing on identifying and addressing security vulnerabilities across various systems. His expertise in penetration testing helps uncover potential weaknesses before malicious actors can exploit them.",
+        "paragraph2": "Specializing in network security, Henry ensures that organizational networks are secure and resilient against attacks. His comprehensive approach includes regular security audits and threat assessments to maintain high security standards.",
+        "paragraph3": "At SecureNet, Henry has played a crucial role in enhancing the cybersecurity posture of numerous clients. His ability to assess and mitigate risks ensures that sensitive data and critical systems remain protected.",
+        "paragraph4": "Henry is committed to staying up-to-date with the latest security trends and technologies to provide cutting-edge protection against evolving threats."
+      },
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": false
+      },
+      "onTimeDelivery": "95%",
+      "onBudget": "90%",
+      "acceptRate": "86%",
+      "repeatHireRate": "74%",
+      "overallRating": 4.7,
+      "numberOfReviews": 100,
+      "amountEarned": "$140,000",
+      "successfullyCompletedJobs": "98%"
+    },    
+    {
+      "id": "E033",
+      "name": "Isabella Scott",
+      "designation": "Mobile App Developer",
+      "skills": ["React Native", "Flutter", "Swift"],
+      "experience": 4,
+      "location": "Vancouver, Canada",
+      "profilePicture": "images/33.jpg",
+      "currentCompany": "MobileWorks",
+      "availability": "Available",
+      "hourlyCharges": "$100 USD / hour",
+      "bio": "Isabella Scott is a dedicated mobile app developer based in Vancouver, Canada, with a strong background in React Native, Flutter, and Swift. Her expertise lies in crafting high-performance mobile applications that deliver exceptional user experiences across both iOS and Android platforms. Isabella’s passion for mobile technology drives her to create innovative and user-friendly solutions that meet diverse client needs. With a focus on optimizing performance and ensuring seamless functionality, she excels at developing both cross-platform and native apps. Her commitment to quality and attention to detail make her a standout choice for mobile app development projects.",
+      "services": [
+        "Mobile App Development",
+        "Cross-Platform Apps",
+        "Native iOS/Android Apps"
+      ],
+      "description": {
+        "paragraph1": "With 4 years of experience in mobile app development, Isabella has developed a range of applications using React Native and Flutter. Her expertise in these frameworks enables her to create versatile cross-platform apps that perform well on both iOS and Android devices.",
+        "paragraph2": "In addition to her work with React Native and Flutter, Isabella is skilled in Swift, allowing her to build robust and feature-rich native iOS applications. Her understanding of both cross-platform and native development ensures she can meet various client needs.",
+        "paragraph3": "At MobileWorks, Isabella has contributed to numerous successful projects, leveraging her skills to deliver high-quality mobile apps. Her commitment to staying updated with the latest trends and technologies in mobile development ensures her clients receive the best possible solutions.",
+        "paragraph4": "Isabella's ability to balance performance, usability, and design makes her a valuable asset for any mobile app development project."
+      },
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": true
+      },
+      "onTimeDelivery": "92%",
+      "onBudget": "87%",
+      "acceptRate": "80%",
+      "repeatHireRate": "68%",
+      "overallRating": 4.6,
+      "numberOfReviews": 60,
+      "amountEarned": "$85,000",
+      "successfullyCompletedJobs": "91%"
+    },    
+    {
+      "id": "E034",
+      "name": "Noah Johnson",
+      "designation": "Database Administrator",
+      "skills": ["MySQL", "PostgreSQL", "SQL Server"],
+      "experience": 7,
+      "location": "Berlin, Germany",
+      "profilePicture": "images/34.jpg",
+      "currentCompany": "DataWorks",
+      "availability": "Currently Employed",
+      "hourlyCharges": "$120 USD / hour",
+      "bio": "Noah Johnson is a seasoned database administrator based in Berlin, Germany, with extensive experience in managing and optimizing relational databases such as MySQL, PostgreSQL, and SQL Server. His expertise in database management ensures efficient data handling, performance tuning, and robust backup and recovery solutions. Noah’s commitment to maintaining data integrity and enhancing database performance makes him an invaluable asset to any organization. His deep understanding of database architecture and proactive approach to problem-solving enable him to deliver high-quality solutions tailored to meet complex data management needs. Noah’s dedication to excellence ensures reliable and effective database operations.",
+      "services": [
+        "Database Management",
+        "Performance Tuning",
+        "Backup & Recovery"
+      ],
+      "description": {
+        "paragraph1": "Noah has 7 years of experience in the field of database administration. He is proficient in managing complex database systems and optimizing them for better performance and reliability.",
+        "paragraph2": "His expertise in MySQL, PostgreSQL, and SQL Server ensures that he can handle various types of database environments. Noah specializes in performance tuning, ensuring that databases run efficiently and meet the demands of modern applications.",
+        "paragraph3": "In addition to performance tuning, Noah is skilled in database backup and recovery, providing solutions that protect data and ensure business continuity in case of failures.",
+        "paragraph4": "At DataWorks, Noah plays a critical role in maintaining the integrity and performance of database systems, contributing to the company's success by ensuring robust and reliable data management."
+      },
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": false
+      },
+      "onTimeDelivery": "93%",
+      "onBudget": "89%",
+      "acceptRate": "82%",
+      "repeatHireRate": "72%",
+      "overallRating": 4.6,
+      "numberOfReviews": 80,
+      "amountEarned": "$105,000",
+      "successfullyCompletedJobs": "94%"
+    },    
+    {
+      "id": "E035",
+      "name": "Sophia Young",
+      "designation": "Game Developer",
+      "skills": ["Unity", "Unreal Engine", "C++"],
+      "experience": 5,
+      "location": "San Francisco, USA",
+      "profilePicture": "images/35.jpg",
+      "currentCompany": "Game Studios",
+      "availability": "Available",
+      "hourlyCharges": "$130 USD / hour",
+      "bio": "Sophia Young is a skilled game developer based in San Francisco, USA, with expertise in Unity, Unreal Engine, and C++. Her focus is on creating immersive and engaging gaming experiences that captivate players and push the boundaries of interactive entertainment. With a strong background in game development and 3D modeling, Sophia is dedicated to delivering high-quality, innovative solutions that enhance gameplay and visual appeal. Her proficiency in gameplay programming and passion for the gaming industry make her a valuable asset to any game development team, ensuring that each project achieves its full creative potential.",
+      "services": [
+        "Game Development",
+        "3D Modeling",
+        "Gameplay Programming"
+      ],
+      "description": {
+        "paragraph1": "Sophia has 5 years of experience in the game development industry. Her proficiency with Unity and Unreal Engine allows her to develop high-quality and immersive games.",
+        "paragraph2": "Her expertise in C++ and 3D modeling is crucial for creating intricate and engaging gameplay elements. Sophia excels in both the technical and creative aspects of game development.",
+        "paragraph3": "Sophia's work at Game Studios showcases her ability to handle complex projects and deliver captivating gaming experiences. Her attention to detail and passion for gaming drive her to produce exceptional results.",
+        "paragraph4": "Whether working on 3D modeling or gameplay programming, Sophia brings a deep understanding of game mechanics and user experience, making her a valuable asset for any game development project."
+      },
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": true
+      },
+      "onTimeDelivery": "91%",
+      "onBudget": "85%",
+      "acceptRate": "78%",
+      "repeatHireRate": "64%",
+      "overallRating": 4.4,
+      "numberOfReviews": 70,
+      "amountEarned": "$90,000",
+      "successfullyCompletedJobs": "89%"
+    },    
+    {
+      "id": "E036",
+      "name": "Lucas Walker",
+      "designation": "Systems Analyst",
+      "skills": [
+        "Requirements Gathering",
+        "System Design",
+        "Business Analysis"
+      ],
+      "experience": 6,
+      "location": "Madrid, Spain",
+      "profilePicture": "images/36.jpg",
+      "currentCompany": "Analytica",
+      "availability": "Currently Employed",
+      "hourlyCharges": "$120 USD / hour",
+      "bio": "Lucas Walker is an experienced systems analyst based in Madrid, Spain, specializing in requirements gathering, system design, and business analysis. With a strong background in analyzing and improving business processes, Lucas excels at translating complex requirements into practical system solutions. His expertise in system design and documentation ensures that projects align with business goals and stakeholder needs. Known for his meticulous approach and ability to drive process improvements, Lucas plays a crucial role in enhancing organizational efficiency and delivering effective system solutions. His dedication to understanding client needs and optimizing systems makes him an invaluable asset to any project.",
+      "services": [
+        "System Analysis",
+        "Requirements Documentation",
+        "Process Improvement"
+      ],
+      "description": {
+        "paragraph1": "Lucas has 6 years of experience as a systems analyst. He excels in analyzing business needs and designing effective systems to meet those needs.",
+        "paragraph2": "His expertise includes requirements gathering and business analysis, which are crucial for aligning technology solutions with organizational goals.",
+        "paragraph3": "Lucas's role at Analytica demonstrates his ability to improve processes and document requirements accurately, ensuring successful project outcomes.",
+        "paragraph4": "His skills in system design and analysis help organizations optimize their technology infrastructure and achieve their strategic objectives."
+      },
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": true
+      },
+      "onTimeDelivery": "94%",
+      "onBudget": "90%",
+      "acceptRate": "83%",
+      "repeatHireRate": "71%",
+      "overallRating": 4.6,
+      "numberOfReviews": 85,
+      "amountEarned": "$110,000",
+      "successfullyCompletedJobs": "96%"
+    },    
+    {
+      "id": "E037",
+      "name": "Olivia Adams",
+      "designation": "Technical Writer",
+      "skills": ["Technical Documentation", "Content Creation", "Editing"],
+      "experience": 4,
+      "location": "Toronto, Canada",
+      "profilePicture": "images/37.jpg",
+      "currentCompany": "WriteTech",
+      "availability": "Available",
+      "bio": "Olivia Adams is a dedicated technical writer with a focus on producing clear, accurate, and engaging technical documentation and content. With a background in technical writing, Olivia excels in creating detailed user manuals, guides, and other essential documents that help users understand complex information. Her expertise in content creation ensures that technical details are communicated effectively, making her a valuable asset for any project requiring high-quality documentation. Olivia's commitment to clarity and precision sets her apart in the field of technical writing.",
+      "services": ["Technical Writing", "Content Development", "User Manuals"],
+      "description": {
+        "paragraph1": "With 4 years of experience as a technical writer, Olivia Adams has developed a strong proficiency in producing high-quality technical documentation. Her expertise encompasses a range of technical writing tasks, including the creation of user manuals, guides, and other essential documents that require clear and precise communication. Olivia’s background in technical writing allows her to translate complex technical concepts into user-friendly language, ensuring that information is accessible and understandable for diverse audiences. Her attention to detail and commitment to accuracy are evident in every project she undertakes.",
+        "paragraph2": "Olivia's skills extend beyond mere content creation; she excels in content development and editing as well. Her ability to craft detailed technical documents is complemented by her expertise in refining and polishing content to meet the highest standards. Whether working on technical manuals, online help systems, or product documentation, Olivia approaches each project with a focus on clarity, coherence, and completeness. Her editing skills ensure that all documentation is not only accurate but also well-organized and free of errors, enhancing the overall quality of the final product.",
+        "paragraph3": "In addition to her technical writing skills, Olivia brings a deep understanding of various documentation tools and methodologies. Her proficiency with tools such as Markdown, LaTeX, and various content management systems enables her to create and manage documentation efficiently. Olivia stays updated with the latest trends in technical writing and content development, continuously improving her skills to adapt to evolving industry standards. Her ability to leverage these tools effectively ensures that documentation is created in a timely manner and meets the specific needs of each project.",
+        "paragraph4": "Olivia’s approach to technical writing is characterized by a strong commitment to user-centered design. She focuses on understanding the end-user’s needs and preferences to create documentation that is not only informative but also user-friendly. By conducting thorough research and gathering feedback from users, Olivia ensures that the documentation she produces is relevant and valuable. Her dedication to providing clear and accessible information helps users navigate complex systems and products with ease, making her an invaluable resource for any organization in need of top-notch technical writing."
+      },
+      "hourlyCharges": "$45 USD / hour",
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": true
+      },
+      "onTimeDelivery": "92%",
+      "onBudget": "88%",
+      "acceptRate": "79%",
+      "repeatHireRate": "67%",
+      "overallRating": 4.5,
+      "numberOfReviews": 50,
+      "amountEarned": "$70,000",
+      "successfullyCompletedJobs": "91%"
+    },    
+    {
+      "id": "E038",
+      "name": "Benjamin King",
+      "designation": "IoT Developer",
+      "skills": ["IoT Protocols", "Embedded Systems", "Data Analytics"],
+      "experience": 5,
+      "location": "Bangalore, India",
+      "profilePicture": "images/38.jpg",
+      "currentCompany": "IoT Innovations",
+      "availability": "Currently Employed",
+      "bio": "Benjamin King is an experienced IoT developer specializing in IoT protocols, embedded systems, and data analytics. With a strong background in creating innovative IoT solutions, he excels in developing connected devices and managing data effectively. His expertise in both embedded systems and data analytics allows him to design and implement robust IoT solutions that drive technological advancement. Benjamin's commitment to excellence and his in-depth knowledge make him a valuable asset in the field of IoT development.",
+      "services": ["IoT Solutions", "Embedded Programming", "Data Analysis"],
+      "description": {
+        "paragraph1": "With 5 years of experience in IoT development, Benjamin King has built a strong foundation in creating and managing innovative IoT solutions. His work involves leveraging IoT protocols to connect various devices, ensuring seamless communication and integration. Benjamin's expertise in embedded systems allows him to design and implement hardware and software solutions that are essential for the functionality of connected devices. His hands-on experience with these technologies has made him proficient in developing systems that meet the needs of modern IoT applications.",
+        "paragraph2": "Benjamin's skills in data analytics play a crucial role in his work as an IoT developer. He utilizes data analytics to gather insights from connected devices, helping organizations make informed decisions based on real-time data. His ability to analyze and interpret complex data sets ensures that the IoT solutions he develops are not only functional but also optimized for performance. By employing advanced data analysis techniques, Benjamin enhances the efficiency and effectiveness of IoT systems, providing valuable insights that drive innovation.",
+        "paragraph3": "Embedded systems are a key area of focus for Benjamin. His expertise in this field allows him to work on the integration of software and hardware components to create cohesive and reliable IoT solutions. From designing microcontroller-based systems to developing firmware for embedded devices, Benjamin's skills ensure that the embedded systems he works on are robust and scalable. His experience in this area supports the creation of high-performance IoT solutions that meet the demands of various industries and applications.",
+        "paragraph4": "Benjamin's approach to IoT development is characterized by a commitment to continuous improvement and innovation. He stays updated with the latest advancements in IoT technology and incorporates best practices into his work. His dedication to refining and enhancing IoT solutions ensures that his projects are at the forefront of technological progress. By combining his technical expertise with a passion for innovation, Benjamin delivers IoT solutions that are both cutting-edge and effective, contributing to the advancement of the industry."
+      },
+      "hourlyCharges": "$50 USD / hour",
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": false
+      },
+      "onTimeDelivery": "91%",
+      "onBudget": "86%",
+      "acceptRate": "80%",
+      "repeatHireRate": "63%",
+      "overallRating": 4.4,
+      "numberOfReviews": 55,
+      "amountEarned": "$80,000",
+      "successfullyCompletedJobs": "89%"
+    },    
+    {
+      "id": "E039",
+      "name": "Ella Turner",
+      "designation": "Cloud Solutions Architect",
+      "skills": ["AWS", "Azure", "Cloud Infrastructure"],
+      "experience": 7,
+      "location": "Dubai, UAE",
+      "profilePicture": "images/39.jpg",
+      "currentCompany": "CloudWorks",
+      "availability": "Available",
+      "bio": "Ella Turner is a seasoned Cloud Solutions Architect specializing in designing and implementing cloud solutions using AWS and Azure. She excels at creating scalable, secure, and cost-effective cloud architectures that drive business success. With a strong focus on cloud infrastructure and migration services, Ella helps businesses transition to the cloud seamlessly. Her commitment to delivering high-quality solutions and her extensive knowledge make her a valuable asset in the field of cloud computing.",
+      "services": ["Cloud Architecture", "Infrastructure Design", "Migration Services"],
+      "description": {
+        "paragraph1": "With 7 years of experience in the field, Ella Turner has established herself as a leading Cloud Solutions Architect. Her work involves designing and implementing robust cloud architectures using AWS and Azure, which are crucial for businesses looking to leverage cloud technology. Ella’s deep understanding of cloud infrastructure allows her to create solutions that are not only scalable but also optimized for performance and cost-efficiency. Her ability to design complex cloud environments ensures that her clients can take full advantage of the capabilities offered by cloud platforms.",
+        "paragraph2": "One of Ella's core strengths is her proficiency in AWS and Azure. She leverages these platforms to build and manage cloud solutions that meet the diverse needs of businesses. Whether it’s setting up cloud services, configuring networks, or integrating cloud applications, Ella’s expertise ensures that her solutions are aligned with best practices and industry standards. Her knowledge of these leading cloud platforms helps her design solutions that are both innovative and reliable, providing businesses with the tools they need to succeed in the cloud.",
+        "paragraph3": "In addition to her technical skills, Ella excels in migration services. She has a proven track record of helping businesses transition smoothly to cloud environments, minimizing disruption and ensuring data integrity throughout the process. Her approach to cloud migration involves careful planning, risk assessment, and execution, making the transition as seamless as possible. By addressing potential challenges and leveraging her expertise, Ella helps organizations adopt cloud technologies with confidence and ease.",
+        "paragraph4": "Ella’s commitment to excellence and her passion for cloud technology drive her to stay updated with the latest advancements in the field. She continuously seeks to enhance her skills and knowledge, ensuring that she can offer cutting-edge solutions to her clients. Her dedication to delivering high-quality cloud solutions and her ability to address complex technical challenges make her a highly sought-after expert in cloud computing. Ella’s contributions to the field have made her a valuable partner for businesses looking to optimize their cloud infrastructure."
+      },
+      "hourlyCharges": "$60 USD / hour",
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": true
+      },
+      "onTimeDelivery": "92%",
+      "onBudget": "89%",
+      "acceptRate": "84%",
+      "repeatHireRate": "73%",
+      "overallRating": 4.6,
+      "numberOfReviews": 85,
+      "amountEarned": "$115,000",
+      "successfullyCompletedJobs": "93%"
+    },    
+    {
+      "id": "E040",
+      "name": "Mason Wright",
+      "designation": "AI Engineer",
+      "skills": ["Machine Learning", "Deep Learning", "Python"],
+      "experience": 6,
+      "location": "Melbourne, Australia",
+      "profilePicture": "images/40.jpg",
+      "currentCompany": "AIA Innovations",
+      "availability": "Currently Employed",
+      "bio": "Mason Wright is a skilled AI Engineer specializing in machine learning, deep learning, and Python programming. He excels in developing advanced machine learning models and deep learning solutions, focusing on leveraging AI technologies to drive innovation and solve complex problems. Mason’s expertise in Python and his dedication to pushing the boundaries of artificial intelligence make him a valuable asset in creating cutting-edge AI applications. His commitment to excellence ensures that his solutions are both effective and efficient.",
+      "services": ["AI Solutions", "Machine Learning Models", "Deep Learning"],
+      "description": {
+        "paragraph1": "With 6 years of experience as an AI Engineer, Mason Wright has a proven track record of developing sophisticated machine learning models and deep learning solutions. His work involves applying advanced algorithms and techniques to address complex challenges and drive innovation in the field of artificial intelligence. Mason's expertise in machine learning enables him to create models that can analyze vast amounts of data and generate actionable insights, making a significant impact on various applications and industries.",
+        "paragraph2": "Mason's proficiency in deep learning allows him to tackle problems that require intricate neural network architectures and advanced computational techniques. His deep understanding of deep learning frameworks and methodologies enables him to design and implement models that excel in tasks such as image recognition, natural language processing, and predictive analytics. Mason's ability to leverage deep learning for complex problem-solving demonstrates his commitment to advancing the capabilities of AI technology.",
+        "paragraph3": "Python programming is a cornerstone of Mason's skill set, and he uses it extensively in his work as an AI Engineer. His mastery of Python allows him to efficiently develop and deploy machine learning models and integrate them into various applications. Mason's familiarity with Python libraries and tools, such as TensorFlow, Keras, and scikit-learn, enhances his ability to deliver high-quality AI solutions that meet the needs of his clients and contribute to the advancement of the field.",
+        "paragraph4": "In addition to his technical skills, Mason is dedicated to staying abreast of the latest developments in artificial intelligence. His continuous learning and adaptation to emerging technologies ensure that his solutions remain at the forefront of innovation. Mason's commitment to excellence and his ability to address complex AI challenges make him a sought-after expert in the field, capable of delivering impactful solutions that drive business success and technological progress."
+      },
+      "hourlyCharges": "$65 USD / hour",
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": false
+      },
+      "onTimeDelivery": "90%",
+      "onBudget": "88%",
+      "acceptRate": "82%",
+      "repeatHireRate": "70%",
+      "overallRating": 4.5,
+      "numberOfReviews": 75,
+      "amountEarned": "$100,000",
+      "successfullyCompletedJobs": "92%"
+    },    
+    {
+      "id": "E041",
+      "name": "Chloe Martinez",
+      "designation": "Network Engineer",
+      "skills": ["Networking", "Firewall Configuration", "Network Optimization"],
+      "experience": 6,
+      "location": "Sydney, Australia",
+      "profilePicture": "images/41.jpg",
+      "currentCompany": "NetSolutions",
+      "availability": "Available",
+      "bio": "Chloe Martinez is an accomplished network engineer with a strong background in networking, firewall configuration, and network optimization. She has developed expertise in designing and managing robust network infrastructures. Chloe’s skills in firewall configuration ensure secure network operations, while her proficiency in network optimization guarantees efficient performance. Her dedication to maintaining high standards in network engineering makes her a valuable asset for managing and enhancing network systems.",
+      "services": ["Network Setup", "Firewall Configuration", "Performance Optimization"],
+      "description": {
+        "paragraph1": "Chloe Martinez brings 6 years of experience as a network engineer, specializing in creating and managing complex network infrastructures. Her expertise includes designing networks that are both scalable and secure, ensuring that they can accommodate growing demands while protecting against potential threats. Chloe's ability to assess and implement effective network solutions helps businesses achieve reliable and high-performance network operations, crucial for maintaining smooth and uninterrupted connectivity.",
+        "paragraph2": "One of Chloe's key areas of expertise is firewall configuration. She has a deep understanding of various firewall technologies and is adept at setting up and managing firewalls to protect network systems from unauthorized access and cyber threats. Chloe’s meticulous approach to firewall configuration ensures that network security is robust, and potential vulnerabilities are minimized, safeguarding sensitive data and maintaining the integrity of network operations.",
+        "paragraph3": "In addition to her skills in firewall management, Chloe excels in network optimization. Her proficiency in analyzing network performance and identifying areas for improvement allows her to implement strategies that enhance network efficiency. Chloe’s optimization techniques involve fine-tuning network components, reducing latency, and ensuring that network resources are used effectively, leading to better overall performance and user satisfaction.",
+        "paragraph4": "Chloe's commitment to staying updated with the latest advancements in networking technologies and best practices ensures that her skills remain current and relevant. Her proactive approach to professional development enables her to address emerging network challenges and integrate new technologies effectively. Chloe's dedication to delivering high-quality network solutions and her ability to adapt to evolving industry trends make her a valuable asset for any organization seeking to optimize its network infrastructure."
+      },
+      "hourlyCharges": "$55 USD / hour",
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": true
+      },
+      "onTimeDelivery": "93%",
+      "onBudget": "88%",
+      "acceptRate": "79%",
+      "repeatHireRate": "68%",
+      "overallRating": 4.5,
+      "numberOfReviews": 60,
+      "amountEarned": "$85,000",
+      "successfullyCompletedJobs": "90%"
+    },    
+    {
+      "id": "E042",
+      "name": "Elijah Brown",
+      "designation": "Full Stack Developer",
+      "skills": ["JavaScript", "Node.js", "React"],
+      "experience": 7,
+      "location": "Cape Town, South Africa",
+      "profilePicture": "images/42.jpg",
+      "currentCompany": "TechSolutions",
+      "availability": "Open to Offers",
+      "bio": "Elijah Brown is a highly skilled full stack developer specializing in JavaScript, Node.js, and React. He excels in end-to-end web development, delivering both robust front-end and efficient back-end solutions. Elijah’s comprehensive understanding of modern web technologies allows him to build seamless and scalable applications, integrating various APIs to enhance functionality. His dedication to producing high-quality code and his problem-solving abilities make him a valuable asset for any web development project.",
+      "services": [
+        "Full Stack Development",
+        "Web Applications",
+        "API Integration"
+      ],
+      "description": {
+        "paragraph1": "Elijah Brown is a seasoned full stack developer with 7 years of experience in the tech industry. His expertise spans both front-end and back-end development, enabling him to create well-rounded and efficient web applications. Elijah's skills in JavaScript, Node.js, and React allow him to tackle various aspects of web development, from designing intuitive user interfaces to implementing robust server-side logic. His ability to handle both ends of the development spectrum ensures that projects are cohesive and functional.",
+        "paragraph2": "In his role as a full stack developer, Elijah focuses on building dynamic and scalable web solutions. His proficiency in JavaScript and React enables him to craft engaging and responsive front-end experiences. Whether working on complex user interfaces or optimizing performance, Elijah leverages his deep knowledge of these technologies to deliver seamless user experiences. His expertise in React ensures that applications are built with modern best practices and are easy to maintain and scale.",
+        "paragraph3": "On the back-end, Elijah utilizes Node.js to create efficient and scalable server-side applications. His experience with Node.js allows him to build APIs and manage server-side logic with ease. Elijah’s understanding of asynchronous programming and server management contributes to the development of high-performance applications. His skills in API integration further enhance the functionality of web solutions, allowing for smooth communication between different systems and services.",
+        "paragraph4": "Elijah’s commitment to continuous learning and staying updated with the latest industry trends ensures that his development practices remain cutting-edge. He actively seeks to refine his skills and explore new technologies, which enables him to provide innovative solutions to complex challenges. His dedication to quality and his proactive approach to problem-solving make him a reliable and effective full stack developer, capable of delivering exceptional results for a wide range of web development projects."
+      },
+      "hourlyCharges": "$60 USD / hour",
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": false
+      },
+      "onTimeDelivery": "92%",
+      "onBudget": "85%",
+      "acceptRate": "81%",
+      "repeatHireRate": "72%",
+      "overallRating": 4.6,
+      "numberOfReviews": 70,
+      "amountEarned": "$100,000",
+      "successfullyCompletedJobs": "93%"
+    },    
+    {
+      "id": "E043",
+      "name": "Zoe Davis",
+      "designation": "UX/UI Designer",
+      "skills": ["User Experience", "User Interface", "Prototyping"],
+      "experience": 5,
+      "location": "Seoul, South Korea",
+      "profilePicture": "images/43.jpg",
+      "currentCompany": "DesignWorks",
+      "availability": "Available",
+      "bio": "Zoe Davis is a dedicated UX/UI designer specializing in user experience, user interface design, and prototyping. She is known for creating intuitive and visually appealing designs that enhance user interaction and satisfaction. Zoe’s expertise extends from conceptualizing user experiences to crafting detailed prototypes that effectively communicate design intentions. Her strong focus on user-centered design ensures that the final products are both functional and aesthetically pleasing, making her a valuable asset for any design project.",
+      "services": [
+        "UX Design",
+        "UI Design",
+        "Prototyping"
+      ],
+      "description": {
+        "paragraph1": "Zoe Davis brings 5 years of experience as a UX/UI designer, with a focus on developing user-centered designs that prioritize functionality and aesthetics. Her approach to user experience design involves understanding user needs and behaviors to create intuitive interfaces. Zoe’s work is centered around delivering designs that enhance user satisfaction and engagement. She employs various techniques to ensure that the designs not only meet user expectations but also provide a seamless and enjoyable interaction with the product.",
+        "paragraph2": "In addition to her user experience expertise, Zoe is proficient in user interface design. She excels in creating visually appealing and interactive interfaces that align with modern design trends. Her skills in UI design ensure that the final product is not only functional but also attractive and easy to navigate. Zoe’s attention to detail and creativity contribute to the development of interfaces that stand out and provide a memorable user experience.",
+        "paragraph3": "Prototyping is another key area of Zoe’s expertise. She uses various tools and techniques to create detailed prototypes that effectively convey design concepts and functionalities. These prototypes serve as valuable tools for user testing and feedback, allowing for iterative improvements and refinements. Zoe’s proficiency in prototyping helps bridge the gap between initial design ideas and the final product, ensuring that the design process is both efficient and effective.",
+        "paragraph4": "Zoe’s commitment to delivering high-quality designs is reflected in her strong track record of client satisfaction. Her ability to balance user needs with design objectives ensures that her work consistently meets and exceeds expectations. As a UX/UI designer, Zoe stays updated with the latest industry trends and continuously refines her skills to provide innovative and effective design solutions. Her dedication to user-centered design and her expertise in creating engaging interfaces make her a top choice for design projects."
+      },
+      "hourlyCharges": "$55 USD / hour",
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": true
+      },
+      "onTimeDelivery": "94%",
+      "onBudget": "90%",
+      "acceptRate": "83%",
+      "repeatHireRate": "75%",
+      "overallRating": 4.7,
+      "numberOfReviews": 65,
+      "amountEarned": "$80,000",
+      "successfullyCompletedJobs": "96%"
+    },    
+    {
+      "id": "E044",
+      "name": "Aiden Miller",
+      "designation": "AR/VR Developer",
+      "skills": ["Augmented Reality", "Virtual Reality", "Unity"],
+      "experience": 4,
+      "location": "Singapore",
+      "profilePicture": "images/44.jpg",
+      "currentCompany": "ARVR Innovations",
+      "availability": "Currently Employed",
+      "bio": "Aiden Miller is an AR/VR developer with a strong background in augmented reality, virtual reality, and Unity. He excels in creating immersive and interactive experiences that leverage cutting-edge AR and VR technologies. Aiden’s expertise in Unity programming allows him to develop innovative solutions for a variety of applications, making him a valuable asset in the rapidly evolving field of augmented and virtual reality development. His passion for pushing the boundaries of what’s possible in AR/VR drives his commitment to delivering high-quality projects.",
+      "services": [
+        "AR Development",
+        "VR Development",
+        "Unity Programming"
+      ],
+      "description": {
+        "paragraph1": "Aiden Miller has 4 years of experience specializing in AR and VR development. His work involves designing and creating immersive experiences that utilize augmented reality and virtual reality technologies. By leveraging Unity, Aiden is able to build interactive applications that provide engaging and dynamic user experiences. His deep understanding of AR and VR principles allows him to innovate and deliver high-quality solutions tailored to various industries and use cases.",
+        "paragraph2": "In augmented reality development, Aiden focuses on creating applications that blend digital content with the real world. His expertise in this area enables him to design experiences that enhance user interaction by overlaying virtual elements onto physical environments. Whether developing applications for gaming, education, or industrial use, Aiden ensures that the augmented experiences are seamless and provide meaningful interactions for users.",
+        "paragraph3": "For virtual reality development, Aiden utilizes Unity to build fully immersive environments that transport users to virtual worlds. His skills in VR development include crafting detailed 3D models and integrating complex interactions to create realistic and engaging virtual experiences. Aiden’s proficiency in Unity programming is critical for developing VR applications that are not only visually impressive but also functionally robust.",
+        "paragraph4": "Aiden’s commitment to advancing AR/VR technology is reflected in his dedication to staying current with industry trends and continuously improving his skill set. His ability to deliver projects on time and within budget demonstrates his professionalism and efficiency. With a strong portfolio of successfully completed AR and VR projects, Aiden is well-equipped to tackle new challenges and contribute to innovative solutions in the field of immersive technology."
+      },
+      "hourlyCharges": "$60 USD / hour",
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": false
+      },
+      "onTimeDelivery": "89%",
+      "onBudget": "84%",
+      "acceptRate": "77%",
+      "repeatHireRate": "65%",
+      "overallRating": 4.3,
+      "numberOfReviews": 45,
+      "amountEarned": "$60,000",
+      "successfullyCompletedJobs": "87%"
+    },    
+    {
+      "id": "E045",
+      "name": "Samantha Wilson",
+      "designation": "Business Intelligence Analyst",
+      "skills": ["Data Analysis", "BI Tools", "Reporting"],
+      "experience": 6,
+      "location": "Paris, France",
+      "profilePicture": "images/45.jpg",
+      "currentCompany": "Insight Analytics",
+      "availability": "Available",
+      "bio": "Samantha Wilson is a business intelligence analyst specializing in data analysis, business intelligence tools, and reporting. She excels in extracting valuable insights from complex datasets and translating them into actionable recommendations. Samantha’s proficiency in using BI tools ensures that organizations can harness their data effectively to drive strategic decisions and improve overall performance. Her analytical skills make her a vital asset in any data-driven environment, delivering high-quality reports and analyses that support informed decision-making.",
+      "services": [
+        "Data Analysis",
+        "Business Intelligence",
+        "Reporting"
+      ],
+      "description": {
+        "paragraph1": "With 6 years of professional experience in business intelligence, Samantha Wilson has developed a deep expertise in analyzing and interpreting complex data sets. Her role involves leveraging various BI tools to conduct thorough data analysis, uncover trends, and generate comprehensive reports. Samantha’s analytical skills enable her to provide valuable insights that help organizations understand their business performance and identify opportunities for growth and improvement.",
+        "paragraph2": "Samantha specializes in utilizing advanced BI tools to create detailed reports that present data in an easily digestible format. Her ability to effectively communicate complex data through visualizations and reports allows stakeholders to make well-informed decisions. Whether it’s developing dashboards, generating performance metrics, or performing ad-hoc analyses, Samantha ensures that the information provided is accurate, relevant, and tailored to the needs of the business.",
+        "paragraph3": "In addition to her technical skills, Samantha brings a strategic mindset to her role as a business intelligence analyst. She collaborates with various departments to understand their data needs and develops tailored solutions that align with business objectives. Her insights help organizations refine their strategies, optimize operations, and enhance overall efficiency. Samantha’s contributions are crucial in guiding data-driven decision-making and fostering a culture of continuous improvement.",
+        "paragraph4": "Samantha’s dedication to excellence and her commitment to staying current with industry trends and advancements in BI tools further enhance her effectiveness as an analyst. Her track record of successfully completed projects and positive client feedback reflect her ability to deliver high-quality work that meets or exceeds expectations. With a strong foundation in data analysis and reporting, Samantha is well-equipped to tackle new challenges and drive success in any business intelligence role."
+      },
+      "hourlyCharges": "$65 USD / hour",
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": true
+      },
+      "onTimeDelivery": "92%",
+      "onBudget": "87%",
+      "acceptRate": "80%",
+      "repeatHireRate": "70%",
+      "overallRating": 4.5,
+      "numberOfReviews": 55,
+      "amountEarned": "$75,000",
+      "successfullyCompletedJobs": "90%"
+    },    
+    {
+      "id": "E046",
+      "name": "Daniel Lewis",
+      "designation": "SEO Specialist",
+      "skills": [
+        "Search Engine Optimization",
+        "Keyword Research",
+        "Content Strategy"
+      ],
+      "experience": 5,
+      "location": "Mumbai, India",
+      "profilePicture": "images/46.jpg",
+      "currentCompany": "SEO Boosters",
+      "availability": "Available",
+      "bio": "Daniel Lewis is an SEO specialist with expertise in search engine optimization, keyword research, and content strategy. He has a proven track record of enhancing website visibility and improving search engine rankings through effective SEO techniques. Daniel’s expertise lies in conducting comprehensive SEO audits, performing in-depth keyword research, and devising content strategies that drive organic traffic and boost online presence. His commitment to staying updated with the latest SEO trends ensures that his strategies are always aligned with search engine algorithms.",
+      "services": [
+        "SEO Audits",
+        "Keyword Research",
+        "Content Optimization"
+      ],
+      "description": {
+        "paragraph1": "With 5 years of dedicated experience in the field of SEO, Daniel Lewis has honed his skills in optimizing websites for better search engine rankings. His approach involves conducting thorough SEO audits to identify areas of improvement and implementing strategies that enhance a website’s visibility. Daniel’s expertise in keyword research enables him to identify high-value keywords that drive targeted traffic to websites, ensuring that businesses reach their desired audience effectively.",
+        "paragraph2": "Daniel’s proficiency in content strategy is another key aspect of his SEO services. He develops and executes content plans that align with SEO goals, focusing on creating high-quality, relevant content that engages users and ranks well on search engines. By optimizing existing content and developing new content that incorporates targeted keywords, Daniel helps businesses improve their online presence and attract more organic traffic.",
+        "paragraph3": "In addition to his technical skills, Daniel is adept at staying abreast of the latest industry trends and search engine algorithm updates. This knowledge allows him to adjust strategies and tactics accordingly, ensuring that his clients' websites remain competitive in the ever-evolving digital landscape. His ability to adapt to changes and implement best practices makes him a valuable asset for businesses looking to maintain and enhance their search engine performance.",
+        "paragraph4": "Daniel’s success in the SEO field is reflected in his ability to deliver measurable results and exceed client expectations. His positive track record, combined with his commitment to continuous learning and improvement, positions him as a leading SEO specialist. Whether working on SEO audits, keyword research, or content optimization, Daniel’s focus on achieving tangible results and providing excellent client service makes him a trusted partner for businesses aiming to succeed in the online arena."
+      },
+      "hourlyCharges": "$60 USD / hour",
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": true
+      },
+      "onTimeDelivery": "90%",
+      "onBudget": "86%",
+      "acceptRate": "82%",
+      "repeatHireRate": "69%",
+      "overallRating": 4.4,
+      "numberOfReviews": 50,
+      "amountEarned": "$70,000",
+      "successfullyCompletedJobs": "88%"
+    },    
+    {
+      "id": "E047",
+      "name": "Emily Turner",
+      "designation": "Digital Marketer",
+      "skills": [
+        "Digital Marketing",
+        "Social Media",
+        "Campaign Management"
+      ],
+      "experience": 4,
+      "location": "New York, USA",
+      "profilePicture": "images/47.jpg",
+      "currentCompany": "MarketMakers",
+      "availability": "Available",
+      "bio": "Emily Turner is a dedicated digital marketer with expertise in digital marketing, social media management, and campaign management. She excels in developing and executing comprehensive digital marketing strategies that enhance brand visibility and engagement. Emily's expertise in managing social media platforms and crafting targeted marketing campaigns has consistently delivered impressive results for her clients. Her strategic approach and in-depth knowledge of digital marketing tools make her a valuable asset for any organization looking to boost its online presence.",
+      "services": [
+        "Digital Marketing Strategies",
+        "Social Media Campaigns",
+        "SEO"
+      ],
+      "description": {
+        "paragraph1": "With 4 years of professional experience in digital marketing, Emily Turner has established herself as a proficient marketer specializing in creating impactful digital campaigns. Her ability to design and execute strategies that align with business goals has proven effective in enhancing brand visibility and driving user engagement. Emily’s expertise in digital marketing encompasses a wide range of activities, including content creation, paid advertising, and analytics, all aimed at maximizing online performance and achieving measurable results.",
+        "paragraph2": "Emily’s proficiency in social media management is a key component of her skill set. She adeptly manages various social media platforms to engage with audiences, build brand loyalty, and drive traffic. By leveraging her knowledge of social media trends and best practices, Emily creates compelling content and manages interactions that resonate with target audiences. Her strategic use of social media tools ensures that campaigns are not only creative but also data-driven, leading to higher engagement rates and conversion.",
+        "paragraph3": "In addition to her social media expertise, Emily excels in campaign management, overseeing all aspects of digital marketing campaigns from inception to completion. Her meticulous planning and execution ensure that campaigns are delivered on time and within budget. Emily’s analytical skills allow her to monitor campaign performance, make data-driven adjustments, and report on outcomes. Her ability to optimize campaigns based on performance metrics is instrumental in achieving successful results and meeting client objectives.",
+        "paragraph4": "Emily’s commitment to staying current with digital marketing trends and technologies further enhances her effectiveness as a marketer. She continuously seeks out new tools and strategies to improve campaign performance and adapt to changing market conditions. Her dedication to professional growth and her results-oriented approach make Emily a standout digital marketer. Whether working on comprehensive digital marketing strategies or specific social media campaigns, Emily’s expertise and enthusiasm drive success for her clients."
+      },
+      "hourlyCharges": "$55 USD / hour",
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": true
+      },
+      "onTimeDelivery": "92%",
+      "onBudget": "87%",
+      "acceptRate": "78%",
+      "repeatHireRate": "66%",
+      "overallRating": 4.5,
+      "numberOfReviews": 55,
+      "amountEarned": "$65,000",
+      "successfullyCompletedJobs": "90%"
+    },    
+    {
+      "id": "E048",
+      "name": "James Anderson",
+      "designation": "Software Architect",
+      "skills": [
+        "System Architecture",
+        "Design Patterns",
+        "Scalability"
+      ],
+      "experience": 8,
+      "location": "Toronto, Canada",
+      "profilePicture": "images/48.jpg",
+      "currentCompany": "Architects Inc.",
+      "availability": "Currently Employed",
+      "bio": "James Anderson is an accomplished software architect specializing in system architecture, design patterns, and scalability. He excels in designing and implementing complex software systems that are both robust and adaptable. James’s deep understanding of architectural principles enables him to create scalable and efficient systems that meet the evolving needs of businesses. His commitment to excellence and innovation has made him a sought-after expert in the field of software architecture.",
+      "services": [
+        "Architecture Design",
+        "System Analysis",
+        "Scalability Planning"
+      ],
+      "description": {
+        "paragraph1": "James Anderson brings 8 years of extensive experience to his role as a software architect. His expertise lies in crafting and implementing sophisticated software architectures that address both immediate and long-term needs. James's proficiency in system architecture enables him to design frameworks that are not only efficient but also flexible enough to accommodate future growth. His approach to architecture design focuses on creating systems that are resilient, maintainable, and capable of handling complex requirements.",
+        "paragraph2": "A key aspect of James's work involves applying design patterns to ensure that software solutions are both effective and scalable. By leveraging established patterns, he is able to address common challenges in software design and create solutions that are both elegant and practical. James's knowledge of design patterns allows him to optimize software structures and enhance their functionality, resulting in systems that perform reliably and efficiently under various conditions.",
+        "paragraph3": "Scalability is another critical area of James's expertise. He excels in planning and designing systems that can scale seamlessly to accommodate increasing workloads and user demands. James's approach to scalability involves thorough analysis and careful planning to ensure that systems remain performant and responsive as they grow. His ability to anticipate and address scalability challenges helps businesses avoid potential bottlenecks and maintain optimal system performance over time.",
+        "paragraph4": "James's commitment to delivering high-quality architectural solutions is reflected in his impressive track record. His dedication to staying current with industry trends and advancements ensures that he continues to provide cutting-edge solutions. Whether working on new projects or optimizing existing systems, James's expertise and innovative mindset drive success and enable businesses to achieve their technology goals."
+      },
+      "hourlyCharges": "$100 USD / hour",
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": true
+      },
+      "onTimeDelivery": "95%",
+      "onBudget": "91%",
+      "acceptRate": "85%",
+      "repeatHireRate": "78%",
+      "overallRating": 4.7,
+      "numberOfReviews": 80,
+      "amountEarned": "$120,000",
+      "successfullyCompletedJobs": "95%"
+    },    
+    {
+      "id": "E049",
+      "name": "Avery Scott",
+      "designation": "Blockchain Developer",
+      "skills": [
+        "Blockchain",
+        "Smart Contracts",
+        "Cryptocurrency"
+      ],
+      "experience": 5,
+      "location": "Berlin, Germany",
+      "profilePicture": "images/49.jpg",
+      "currentCompany": "BlockChainWorks",
+      "availability": "Available",
+      "bio": "Avery Scott is a skilled blockchain developer specializing in blockchain technology, smart contracts, and cryptocurrency. His expertise allows him to design and implement innovative solutions that leverage decentralized systems. Avery focuses on developing secure and scalable blockchain applications that introduce transparency and efficiency to various industries. His commitment to staying at the forefront of blockchain advancements ensures that his solutions are both cutting-edge and effective.",
+      "services": [
+        "Blockchain Development",
+        "Smart Contracts",
+        "Cryptocurrency Solutions"
+      ],
+      "description": {
+        "paragraph1": "Avery Scott has dedicated 5 years to mastering the intricacies of blockchain technology. His work primarily focuses on developing blockchain-based solutions that offer enhanced security and transparency. Avery's deep understanding of blockchain principles allows him to create applications that utilize decentralized ledgers for a variety of purposes, from financial transactions to data management. His expertise in this field helps clients harness the power of blockchain to achieve their business objectives.",
+        "paragraph2": "Smart contracts are a core component of Avery's development work. He specializes in designing and implementing smart contracts that automate and secure transactions on the blockchain. Avery's approach to smart contract development emphasizes reliability and efficiency, ensuring that the contracts function as intended without vulnerabilities. His skills in this area contribute to the creation of trustless systems that reduce the need for intermediaries and streamline processes.",
+        "paragraph3": "Cryptocurrency solutions are another key area of Avery's expertise. He has experience in developing and integrating cryptocurrency functionalities within blockchain applications. Avery's knowledge of various cryptocurrencies and their underlying technologies enables him to build solutions that support digital currencies and their associated protocols. His work in this area helps businesses and individuals navigate the complex world of cryptocurrency with confidence.",
+        "paragraph4": "Avery's commitment to innovation in blockchain development is evident in his track record of successful projects. He stays informed about emerging trends and technologies in the blockchain space, ensuring that his solutions remain relevant and effective. Whether working on new blockchain applications or enhancing existing systems, Avery's expertise and dedication drive the success of his projects and contribute to the advancement of the blockchain industry."
+      },
+      "hourlyCharges": "$90 USD / hour",
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": true
+      },
+      "onTimeDelivery": "88%",
+      "onBudget": "82%",
+      "acceptRate": "76%",
+      "repeatHireRate": "62%",
+      "overallRating": 4.4,
+      "numberOfReviews": 50,
+      "amountEarned": "$85,000",
+      "successfullyCompletedJobs": "86%"
+    },    
+    {
+      "id": "E050",
+      "name": "Mia Roberts",
+      "designation": "Data Scientist",
+      "skills": [
+        "Data Science",
+        "Machine Learning",
+        "Data Visualization"
+      ],
+      "experience": 6,
+      "location": "London, UK",
+      "profilePicture": "images/50.jpg",
+      "currentCompany": "Data Insights",
+      "availability": "Open to Offers",
+      "bio": "Mia Roberts is a data scientist specializing in data science, machine learning, and data visualization. She excels in analyzing complex data sets to uncover actionable insights, creating machine learning models to predict future trends, and visualizing data to make it accessible and understandable. Mia's work supports data-driven decision-making and helps organizations leverage their data assets effectively. Her proficiency in these areas ensures that she delivers high-quality solutions that drive business success.",
+      "services": [
+        "Data Analysis",
+        "Machine Learning Models",
+        "Visualization"
+      ],
+      "description": {
+        "paragraph1": "With 6 years of experience in data science, Mia Roberts has honed her skills in analyzing complex data sets and deriving valuable insights. She employs advanced statistical methods and algorithms to process and interpret data, providing organizations with actionable information that drives strategic decisions. Her approach to data analysis is both thorough and innovative, ensuring that every aspect of the data is explored and understood.",
+        "paragraph2": "Machine learning is a key area of Mia's expertise. She develops and implements sophisticated machine learning models that predict trends, identify patterns, and automate decision-making processes. Her models are built using the latest techniques and technologies, ensuring high accuracy and reliability. Mia's ability to create and fine-tune these models contributes to the development of predictive analytics that can significantly impact business operations.",
+        "paragraph3": "Data visualization is another critical component of Mia's skill set. She excels in transforming complex data into clear, visually appealing charts and graphs that make it easier for stakeholders to understand and act upon the information. Mia's visualizations help convey insights in a way that is both engaging and informative, enabling more effective communication of data-driven findings and recommendations.",
+        "paragraph4": "Mia's commitment to excellence in data science is reflected in her track record of successful projects and satisfied clients. She remains at the forefront of industry trends and advancements, continuously updating her skills and knowledge to provide the best possible solutions. Whether working on data analysis, machine learning, or visualization, Mia's dedication ensures that she delivers results that meet the highest standards of quality and impact."
+      },
+      "hourlyCharges": "$95 USD / hour",
+      "verifications": {
+        "identity": true,
+        "payment": true,
+        "phone": true,
+        "email": true,
+        "facebook": false
+      },
+      "onTimeDelivery": "91%",
+      "onBudget": "88%",
+      "acceptRate": "79%",
+      "repeatHireRate": "67%",
+      "overallRating": 4.6,
+      "numberOfReviews": 65,
+      "amountEarned": "$95,000",
+      "successfullyCompletedJobs": "92%"
+    }    
+  ]
+}
