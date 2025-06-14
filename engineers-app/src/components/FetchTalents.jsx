@@ -14,7 +14,7 @@ const FetchTalents = () => {
     const signal = controller.signal;
 
     dispatch(fetchTalStatusActions.markFetchingStarted());
-    fetch(`${process.env.REACT_APP_API_BASE_URL}/talents`, { signal })
+    fetch("http://localhost:8080/talents", { signal })
       .then((res) => res.json())
       .then((data) => {
         dispatch(fetchTalStatusActions.markFetchDone());

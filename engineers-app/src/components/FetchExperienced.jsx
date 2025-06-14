@@ -16,7 +16,7 @@ const FetchExperienced = () => {
     const signal = controller.signal;
 
     dispatch(fetchExpStatusActions.markFetchingStarted());
-    fetch(`${process.env.REACT_APP_API_BASE_URL}/experienced`, { signal })
+    fetch("http://localhost:8080/experienced", { signal })
       .then((res) => res.json())
       .then((data) => {
         dispatch(fetchExpStatusActions.markFetchDone());

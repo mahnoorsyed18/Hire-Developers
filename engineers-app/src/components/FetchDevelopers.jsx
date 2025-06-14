@@ -16,7 +16,7 @@ const FetchDevelopers = () => {
     const signal = controller.signal;
 
     dispatch(fetchDevStatusActions.markFetchingStarted());
-    fetch(`${process.env.REACT_APP_API_BASE_URL}/engineers`, { signal })
+    fetch("http://localhost:8080/engineers", { signal })
       .then((res) => res.json())
       .then((data) => {
         dispatch(fetchDevStatusActions.markFetchDone());
