@@ -56,7 +56,7 @@ const Footer = () => {
           </Link>
         </div>
         <div className={css.footerInfo}>
-          <p>&copy; 2024 Hire Developers. All rights reserved.</p>
+          <p>&copy; 2025 Hire Developers. All rights reserved.</p>
         </div>
       </div>
     </footer>
