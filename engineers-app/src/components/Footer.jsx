@@ -10,7 +10,7 @@ const Footer = () => {
           <Link to="/">
             <span className={`fs-4 ${css.logo}`}>
               <img
-                src="./images/logo.png"
+                src="/images/logo.png"
                 alt="logo"
                 height="50px"
                 width="50px"
