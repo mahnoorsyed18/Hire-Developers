@@ -1,14 +1,23 @@
-const fs = require('node:fs/promises');
+const fs = require("node:fs/promises");
 
 async function getStoredExperienced() {
-  const rawFileContent = await fs.readFile('experienced.json', { encoding: 'utf-8' });
+  const path = require("path");
+  const filePath = path.join(__dirname, "..", "experienced.json");
+  const rawFileContent = await fs.readFile(filePath, {
+    encoding: "utf-8",
+  });
   const data = JSON.parse(rawFileContent);
   const storedExperienced = data.experienced ?? [];
   return storedExperienced;
 }
 
 function storeExperienced(experienced) {
-  return fs.writeFile('experienced.json', JSON.stringify({ experienced: experienced || [] }));
+  const path = require("path");
+  const filePath = path.join(__dirname, "..", "experienced.json");
+  return fs.writeFile(
+    filePath,
+    JSON.stringify({ experienced: experienced || [] })
+  );
 }
 
 exports.getStoredExperienced = getStoredExperienced;
