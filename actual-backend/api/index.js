@@ -1,17 +1,14 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 
-const { getStoredEngineers, storeEngineers } = require("./data/engineers");
-const { getStoredTalents, storeTalents } = require("./data/talents");
-const {
-  getStoredExperienced,
-  storeExperienced,
-} = require("./data/experienced");
+const { getStoredEngineers, storeEngineers } = require("../data/engineers");
+const { getStoredTalents, storeTalents } = require("../data/talents");
+const { getStoredExperienced, storeExperienced } = require("../data/experienced");
 
 const app = express();
-
 app.use(bodyParser.json());
 
+// CORS middleware
 app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Access-Control-Allow-Methods", "GET,POST");
@@ -19,7 +16,7 @@ app.use((req, res, next) => {
   next();
 });
 
-// Routes for Engineers
+// Engineers Routes
 app.get("/engineers", async (req, res) => {
   const storedEngineers = await getStoredEngineers();
   res.json({ engineers: storedEngineers });
@@ -34,12 +31,10 @@ app.post("/engineers", async (req, res) => {
   };
   const updatedEngineers = [newEngineer, ...existingEngineers];
   await storeEngineers(updatedEngineers);
-  res
-    .status(201)
-    .json({ message: "Stored new engineer.", engineer: newEngineer });
+  res.status(201).json({ message: "Stored new engineer.", engineer: newEngineer });
 });
 
-// Routes for Talents
+// Talents Routes
 app.get("/talents", async (req, res) => {
   const storedTalents = await getStoredTalents();
   res.json({ talents: storedTalents });
@@ -57,7 +52,7 @@ app.post("/talents", async (req, res) => {
   res.status(201).json({ message: "Stored new talent.", talent: newTalent });
 });
 
-// Routes for Experienced
+// Experienced Routes
 app.get("/experienced", async (req, res) => {
   const storedExperienced = await getStoredExperienced();
   res.json({ experienced: storedExperienced });
@@ -72,13 +67,8 @@ app.post("/experienced", async (req, res) => {
   };
   const updatedExperienced = [newExperienced, ...existingExperienced];
   await storeExperienced(updatedExperienced);
-  res
-    .status(201)
-    .json({
-      message: "Stored new experienced person.",
-      experienced: newExperienced,
-    });
+  res.status(201).json({ message: "Stored new experienced person.", experienced: newExperienced });
 });
 
-// ✅ Important for Vercel: Export the app
+// ✅ Export Express app (no app.listen)
 module.exports = app;
