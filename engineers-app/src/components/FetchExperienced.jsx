@@ -16,7 +16,8 @@ const FetchExperienced = () => {
     const signal = controller.signal;
 
     dispatch(fetchExpStatusActions.markFetchingStarted());
-    fetch("http://localhost:8080/experienced", { signal })
+    
+    fetch(`${import.meta.env.VITE_API_BASE}/experienced`, { signal })
       .then((res) => res.json())
       .then((data) => {
         dispatch(fetchExpStatusActions.markFetchDone());
@@ -28,8 +29,9 @@ const FetchExperienced = () => {
     return () => {
       controller.abort();
     };
-  }, [fetchExperiencedStatus]);
+  }, [fetchExperiencedStatus, dispatch]);
 
   return <></>;
 };
+
 export default FetchExperienced;

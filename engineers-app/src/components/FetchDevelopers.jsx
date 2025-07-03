@@ -11,12 +11,13 @@ const FetchDevelopers = () => {
 
   useEffect(() => {
     if (fetchDeveloperStatus.fetchDone) return;
-    
+
     const controller = new AbortController();
     const signal = controller.signal;
 
     dispatch(fetchDevStatusActions.markFetchingStarted());
-    fetch("http://localhost:8080/engineers", { signal })
+
+    fetch(`${import.meta.env.VITE_API_BASE}/engineers`, { signal })
       .then((res) => res.json())
       .then((data) => {
         dispatch(fetchDevStatusActions.markFetchDone());
@@ -28,8 +29,9 @@ const FetchDevelopers = () => {
     return () => {
       controller.abort();
     };
-  }, [fetchDeveloperStatus]);
+  }, [fetchDeveloperStatus, dispatch]);
 
   return <></>;
 };
+
 export default FetchDevelopers;

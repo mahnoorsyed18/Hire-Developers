@@ -14,7 +14,8 @@ const FetchTalents = () => {
     const signal = controller.signal;
 
     dispatch(fetchTalStatusActions.markFetchingStarted());
-    fetch("http://localhost:8080/talents", { signal })
+
+    fetch(`${import.meta.env.VITE_API_BASE}/talents`, { signal })
       .then((res) => res.json())
       .then((data) => {
         dispatch(fetchTalStatusActions.markFetchDone());
@@ -26,8 +27,9 @@ const FetchTalents = () => {
     return () => {
       controller.abort();
     };
-  }, [fetchTalentsStatus]);
+  }, [fetchTalentsStatus, dispatch]);
 
   return <></>;
 };
+
 export default FetchTalents;
