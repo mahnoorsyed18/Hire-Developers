@@ -20,16 +20,18 @@ const FetchTalents = () => {
       .then((data) => {
         dispatch(fetchTalStatusActions.markFetchDone());
         dispatch(fetchTalStatusActions.markFetchingFinished());
-        const talents = data.talents;
-        dispatch(talentsActions.addInitialItems(talents));
+        dispatch(talentsActions.addInitialItems(data.talents));
+      })
+      .catch((err) => {
+        if (err.name !== "AbortError") {
+          console.error("Failed to fetch talents:", err);
+        }
       });
 
-    return () => {
-      controller.abort();
-    };
+    return () => controller.abort();
   }, [fetchTalentsStatus, dispatch]);
 
-  return <></>;
+  return null;
 };
 
 export default FetchTalents;

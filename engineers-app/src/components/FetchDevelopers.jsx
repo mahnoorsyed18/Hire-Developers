@@ -4,9 +4,7 @@ import { engineersActions } from "../store/engineersSlice";
 import { fetchDevStatusActions } from "../store/fetchDevStatusSlice";
 
 const FetchDevelopers = () => {
-  const fetchDeveloperStatus = useSelector(
-    (store) => store.fetchDeveloperStatus
-  );
+  const fetchDeveloperStatus = useSelector((store) => store.fetchDeveloperStatus);
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -22,16 +20,18 @@ const FetchDevelopers = () => {
       .then((data) => {
         dispatch(fetchDevStatusActions.markFetchDone());
         dispatch(fetchDevStatusActions.markFetchingFinished());
-        const engineers = data.engineers;
-        dispatch(engineersActions.addInitialItems(engineers));
+        dispatch(engineersActions.addInitialItems(data.engineers));
+      })
+      .catch((err) => {
+        if (err.name !== "AbortError") {
+          console.error("Failed to fetch engineers:", err);
+        }
       });
 
-    return () => {
-      controller.abort();
-    };
+    return () => controller.abort();
   }, [fetchDeveloperStatus, dispatch]);
 
-  return <></>;
+  return null;
 };
 
 export default FetchDevelopers;
