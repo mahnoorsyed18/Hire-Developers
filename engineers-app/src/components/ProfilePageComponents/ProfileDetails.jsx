@@ -1,11 +1,7 @@
 import css from "../../css/EachProfile.module.css";
-import { MdOutlinePermIdentity } from "react-icons/md";
-import { MdOutlinePayment } from "react-icons/md";
-import { MdOutlineLocalPhone } from "react-icons/md";
-import { MdOutlineEmail } from "react-icons/md";
+import { MdOutlinePermIdentity, MdOutlinePayment, MdOutlineLocalPhone, MdOutlineEmail, MdDone } from "react-icons/md";
 import { FaFacebook } from "react-icons/fa";
 import { FaMinus } from "react-icons/fa6";
-import { MdDone } from "react-icons/md";
 
 const ProfileDetails = ({ engineer }) => {
   const identityVerified = () => {
@@ -16,25 +12,25 @@ const ProfileDetails = ({ engineer }) => {
           <div className={css["verification-hide"]}>
             <span className={css["identity-verify"]}>
               <MdOutlinePermIdentity className={css.identityVerify} />
-              {"  "}
-              Identity Verified {"  "}
+              {"  "} Identity Verified {"  "}
               <MdDone className={css.connected} />
             </span>
           </div>
         </div>
       );
-    } else if (engineer.verifications.identity !== true) {
-      <div className={css["verification-icon"]}>
-        <MdOutlinePermIdentity className={css.identity} />
-        <div className={css["verification-hide"]}>
-          <span className={css["identity-verify"]}>
-            <MdOutlinePermIdentity className={css.identity} />
-            {"  "}
-            Identity Verified {"  "}
-            <FaMinus className={css.notConnected} />
-          </span>
+    } else {
+      return (
+        <div className={css["verification-icon"]}>
+          <MdOutlinePermIdentity className={css.identity} />
+          <div className={css["verification-hide"]}>
+            <span className={css["identity-verify"]}>
+              <MdOutlinePermIdentity className={css.identity} />
+              {"  "} Identity Verified {"  "}
+              <FaMinus className={css.notConnected} />
+            </span>
+          </div>
         </div>
-      </div>;
+      );
     }
   };
 
@@ -46,22 +42,20 @@ const ProfileDetails = ({ engineer }) => {
           <div className={css["verification-hide"]}>
             <span className={css["payment-verify"]}>
               <MdOutlinePayment className={css.paymentVerify} />
-              {"  "}
-              Payment Verified {"  "}
+              {"  "} Payment Verified {"  "}
               <MdDone className={css.connected} />
             </span>
           </div>
         </div>
       );
-    } else if (engineer.verifications.payment !== true) {
+    } else {
       return (
         <div className={css["verification-icon"]}>
           <MdOutlinePayment className={css.payment} />
           <div className={css["verification-hide"]}>
             <span className={css["payment-verify"]}>
               <MdOutlinePayment className={css.payment} />
-              {"  "}
-              Payment Verified {"  "}
+              {"  "} Payment Verified {"  "}
               <FaMinus className={css.notConnected} />
             </span>
           </div>
@@ -78,22 +72,20 @@ const ProfileDetails = ({ engineer }) => {
           <div className={css["verification-hide"]}>
             <span className={css["phone-verify"]}>
               <MdOutlineLocalPhone className={css.phoneVerify} />
-              {"  "}
-              Phone Verified {"  "}
+              {"  "} Phone Verified {"  "}
               <MdDone className={css.connected} />
             </span>
           </div>
         </div>
       );
-    } else if (engineer.verifications.phone !== true) {
+    } else {
       return (
         <div className={css["verification-icon"]}>
           <MdOutlineLocalPhone className={css.phone} />
           <div className={css["verification-hide"]}>
             <span className={css["phone-verify"]}>
               <MdOutlineLocalPhone className={css.phone} />
-              {"  "}
-              Phone Verified {"  "}
+              {"  "} Phone Verified {"  "}
               <FaMinus className={css.notConnected} />
             </span>
           </div>
@@ -110,22 +102,20 @@ const ProfileDetails = ({ engineer }) => {
           <div className={css["verification-hide"]}>
             <span className={css["email-verify"]}>
               <MdOutlineEmail className={css.emailVerify} />
-              {"  "}
-              Email Verified {"  "}
+              {"  "} Email Verified {"  "}
               <MdDone className={css.connected} />
             </span>
           </div>
         </div>
       );
-    } else if (engineer.verifications.email !== true) {
+    } else {
       return (
         <div className={css["verification-icon"]}>
           <MdOutlineEmail className={css.email} />
           <div className={css["verification-hide"]}>
             <span className={css["email-verify"]}>
               <MdOutlineEmail className={css.email} />
-              {"  "}
-              Email Verified {"  "}
+              {"  "} Email Verified {"  "}
               <FaMinus className={css.notConnected} />
             </span>
           </div>
@@ -142,22 +132,20 @@ const ProfileDetails = ({ engineer }) => {
           <div className={css["verification-hide"]}>
             <span className={css["facebook-verify"]}>
               <FaFacebook className={css.facebookVerify} />
-              {"  "}
-              Facebook Connected {"  "}
+              {"  "} Facebook Connected {"  "}
               <MdDone className={css.facebookConnected} />
             </span>
           </div>
         </div>
       );
-    } else if (engineer.verifications.facebook !== true) {
+    } else {
       return (
         <div className={css["verification-icon"]}>
           <FaFacebook className={css.facebook} />
           <div className={css["verification-hide"]}>
             <span className={css["facebook-verify"]}>
               <FaFacebook className={css.facebook} />
-              {"  "}
-              Facebook Connected {"  "}
+              {"  "} Facebook Connected {"  "}
               <FaMinus className={css.notConnected} />
             </span>
           </div>
@@ -186,37 +174,25 @@ const ProfileDetails = ({ engineer }) => {
 
                 <div className={css.puncual}>
                   <b className={css["on-time"]}>On Time</b>
-                  <span className={css["on-time-percent"]}>
-                    {engineer.onTimeDelivery}
-                  </span>
+                  <span className={css["on-time-percent"]}>{engineer.onTimeDelivery}</span>
                   <div className={css.hideItem}>Jobs completed on time</div>
                 </div>
 
                 <div className={css.affordable}>
                   <b className={css["on-budget"]}>On Budget</b>
-                  <span className={css["on-budget-percent"]}>
-                    {engineer.onBudget}
-                  </span>
-                  <div className={css.hideItem}>
-                    Jobs completed at agreed price
-                  </div>
+                  <span className={css["on-budget-percent"]}>{engineer.onBudget}</span>
+                  <div className={css.hideItem}>Jobs completed at agreed price</div>
                 </div>
 
                 <div className={css.likeliness}>
                   <b className={css["accept-rate"]}>Accept Rate</b>
-                  <span className={css["accept-rate-percent"]}>
-                    {engineer.acceptRate}
-                  </span>
-                  <div className={css.hideItem}>
-                    Likelihood of accepting a project
-                  </div>
+                  <span className={css["accept-rate-percent"]}>{engineer.acceptRate}</span>
+                  <div className={css.hideItem}>Likelihood of accepting a project</div>
                 </div>
 
                 <div className={css.rehired}>
                   <b className={css["repeat-hire-rate"]}>Repeat Hire Rate</b>
-                  <span className={css["repeat-hire-rate-percent"]}>
-                    {engineer.repeatHireRate}
-                  </span>
+                  <span className={css["repeat-hire-rate-percent"]}>{engineer.repeatHireRate}</span>
                   <div className={css.hideItem}>Freelancer rehire rate</div>
                 </div>
               </p>

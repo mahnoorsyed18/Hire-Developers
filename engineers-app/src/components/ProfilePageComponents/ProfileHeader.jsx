@@ -15,11 +15,12 @@ const ProfileHeader = ({ engineer }) => {
 
       <div className={`ratio ratio-1x1 ${css["profile-pic"]}`}>
         <img
+          src={engineer.profilePicture}
+          alt={`${engineer.name}'s profile`}
           style={{
-            backgroundImage: `url(${engineer.profilePicture})`,
-            backgroundSize: "cover",
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "center",
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
           }}
         />
       </div>

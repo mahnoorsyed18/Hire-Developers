@@ -17,22 +17,27 @@ function App() {
   useEffect(() => {
     // Scroll to top on initial render and on route change
     window.scrollTo(0, 0);
-  }, [location]); // Run effect on route change
+  }, [location]);
 
   useEffect(() => {
     if (!fetchDeveloperStatus.currentlyFetching) {
-      // Ensure scroll to top after data fetching is complete
       window.scrollTo(0, 0);
     }
   }, [fetchDeveloperStatus.currentlyFetching]);
 
   return (
-    <>
+    <div className="app-layout">
       <Header />
       <FetchDevelopers />
-      {fetchDeveloperStatus.currentlyFetching ? <LoadingSpinner /> : <Outlet />}
+      <main className="main-content">
+        {fetchDeveloperStatus.currentlyFetching ? (
+          <LoadingSpinner />
+        ) : (
+          <Outlet />
+        )}
+      </main>
       <Footer />
-    </>
+    </div>
   );
 }
 

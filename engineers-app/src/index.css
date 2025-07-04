@@ -1,36 +1,76 @@
+/* Base layout setup */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+  position: relative;
+  min-height: 100vh;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/images/background-image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.2;
+  z-index: -1;
+  pointer-events: none;
+}
+
 /* HeroSection */
 .hero-section-heading {
   text-shadow: 1px 1px black;
 }
 
-/* Favorites, Developers, */
+/* Engineers container */
 .engineers-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  box-sizing: border-box;
 }
 
-/* EachFavorite, EachDeveloper, */
+/* Developer Cards */
 .engineer-card {
-  margin: 10px;
+  flex: 1 1 calc(25% - 2rem); /* 4 per row on large */
+  max-width: calc(25% - 2rem);
+  box-sizing: border-box;
+  margin: 1rem 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s ease;
 }
 
-/* EachExperienced, EachTalent */
+/* Wrapper used for EachExperienced, EachTalent */
 .wrapper {
   display: inline-block;
   margin: 18px;
-  transition: transform 0.3s ease-in-out;
+  max-width: 100%;
   word-wrap: break-word;
+  box-sizing: border-box;
+  transition: transform 0.3s ease-in-out;
 }
 
 .wrapper:hover {
   transform: translateY(-10px);
 }
 
-/* EachDeveloper, EachExperienced, Eachfavorite, EachTalent */
+/* Titles with icon */
 .my-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 10px;
 }
 
 .mark-fav {
@@ -52,18 +92,18 @@
   top: 110%;
   left: 0;
   transform: translateX(-50%);
-  background-color: rgb(47, 45, 45, 0.8);
+  background-color: rgba(47, 45, 45, 0.8);
   color: white;
-  padding: 8px;  
+  padding: 8px;
   border-radius: 4px;
   white-space: nowrap;
   font-size: 13.5px;
-  line-height: 1.2em; 
-  transition: opacity 0.3s ease, visibility 0.3s ease; 
+  line-height: 1.2em;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
   z-index: 10;
 }
 
-/* EachExperienced, EachTalent */
+/* Skills */
 .skills-list {
   padding-left: 15px;
   list-style-type: disc;
@@ -73,11 +113,64 @@
   font-size: 0.9rem;
 }
 
+/* Button */
 .profile-btn {
   min-width: 100%;
 }
 
-/* LoadingSpinner */
+/* Spinner */
 .spinner {
-  margin: 100px 0px
+  margin: 100px 0px;
+}
+
+/* ─────────────────────────────── */
+/* 📱 Responsive Breakpoints */
+/* ─────────────────────────────── */
+
+/* Medium screens: tablets (≤1200px) */
+@media (max-width: 1200px) {
+  .engineer-card {
+    flex: 1 1 calc(33.33% - 2rem); /* 3 per row */
+    max-width: calc(33.33% - 2rem);
+  }
+}
+
+/* Small tablets (≤900px) */
+@media (max-width: 900px) {
+  .engineer-card {
+    flex: 1 1 calc(50% - 2rem); /* 2 per row */
+    max-width: calc(50% - 2rem);
+  }
+}
+
+/* Phones (≤500px) */
+@media (max-width: 500px) {
+  .engineer-card {
+    flex: 1 1 calc(50% - 1rem); /* still 2 per row */
+    max-width: calc(50% - 1rem);
+  }
+}
+
+/* Very small screens (≤400px) */
+@media (max-width: 400px) {
+  .engineer-card {
+    flex: 1 1 100%; /* 1 per row if screen is too small */
+    max-width: 100%;
+  }
+
+  .my-title {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* Ensure footer sticks to bottom */
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1; 
 }

@@ -1,15 +1,50 @@
 .header {
-  display:inline-block;
-  width: 90%
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+  background-color: white; 
+  z-index: 1000;
+  position: relative;
 }
 
+/* HIRE DEVELOPERS Title */
+.title {
+  margin-left: 1rem;
+  margin-top: 10px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.2rem;
+  white-space: nowrap;
+}
+
+/* Navigation Links */
 .nav-clicks {
   margin: 10px;
   font-size: 17px;
+  white-space: nowrap;
 }
 
-.title {
-  margin-left: 8rem;
-  margin-top: 10px;
-  font-weight: 800;
+/* ───────────────────────────────────────────── */
+/* 📱 Responsive Design - Small Screens (Phones) */
+/* ───────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    padding: 0.5rem 1rem;
+  }
+
+  .title {
+    margin-left: 0;
+    font-size: 1rem;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .nav-clicks {
+    margin: 5px 0;
+    font-size: 15px;
+  }
 }

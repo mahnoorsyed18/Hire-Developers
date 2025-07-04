@@ -1,12 +1,29 @@
 .metricsContainer {
-background-image: url('/images/metrics-bg.jpg');
+  background-image: url('/images/metrics-bg.jpg');
   background-size: cover;
-  background-attachment:fixed;
+  background-attachment: fixed;
   display: flex;
-  justify-content: space-between;
-  padding: 7rem;
+  flex-wrap: wrap;               /* Allow items to wrap */
+  justify-content: space-around;
+  align-items: center;
+  padding: 4rem 2rem;            /* Reduced padding */
+  gap: 2rem;                     /* Space between items */
+  text-align: center;
 }
 
 .metrics {
   text-shadow: 2px 2px #fff;
+  font-size: 2rem;
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 768px) {
+  .metricsContainer {
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
+
+  .metrics {
+    font-size: 1.8rem;
+  }
 }

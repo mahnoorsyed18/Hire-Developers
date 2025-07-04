@@ -2,7 +2,7 @@ import css from "../../css/EachProfile.module.css";
 
 const ProfileExpertise = ({ engineer }) => {
   return (
-    <>
+    <div className={css.skillsServicesContainer}>
       <div className={css.skills}>
         <li className="list-group-item">
           <b>Skills:</b>
@@ -23,7 +23,7 @@ const ProfileExpertise = ({ engineer }) => {
           </ul>
         </li>
       </div>
-    </>
+    </div>
   );
 };
 

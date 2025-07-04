@@ -9,6 +9,12 @@
   font-weight: bold;
 }
 
+@media (max-width: 768px) {
+  .heading {
+    font-size: 28px;
+  }
+}
+
 .container {
   overflow: auto;
   white-space: nowrap;

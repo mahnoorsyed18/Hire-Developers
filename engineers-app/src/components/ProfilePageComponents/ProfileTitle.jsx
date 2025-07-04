@@ -6,10 +6,9 @@ import { FcLike } from "react-icons/fc";
 
 const ProfileTitle = ({ engineer }) => {
   const dispatch = useDispatch();
-
   const favoriteItems = useSelector((store) => store.favorites);
-
   const isFavorite = favoriteItems.includes(engineer.id);
+  const isMobile = window.innerWidth < 768;
 
   const handleAddToFav = () => {
     dispatch(favoritesActions.addToFavorite(engineer.id));
@@ -18,6 +17,7 @@ const ProfileTitle = ({ engineer }) => {
   const handleRemoveFromFav = () => {
     dispatch(favoritesActions.removeFromFavorite(engineer.id));
   };
+
   return (
     <div className={css["name-designation"]}>
       <h1 className={css["engineer-name"]}>
@@ -28,13 +28,13 @@ const ProfileTitle = ({ engineer }) => {
         <div className={css.markFav}>
           {isFavorite ? (
             <FcLike
-              size={40}
+              size={isMobile ? 26 : 40}
               style={{ marginLeft: "1rem" }}
               onClick={handleRemoveFromFav}
             />
           ) : (
             <GrFavorite
-              size={40}
+              size={isMobile ? 26 : 40}
               style={{ marginLeft: "1rem" }}
               onClick={handleAddToFav}
             />
