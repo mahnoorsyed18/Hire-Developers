@@ -151,7 +151,6 @@
 /* Bio & Verifications */
 .bio-verifications {
   display: flex;
-  justify-content: space-between;
   margin: 30px 50px;
   gap: 1rem;
   flex-wrap: wrap;
@@ -163,9 +162,14 @@
 }
 
 .verifications {
-  min-width: 40%;
-  line-height: 2rem;
-  margin-top: 0;
+  flex: 1;
+  width: 38%; 
+  min-width: 300px; 
+  max-width: 350px;
+}
+
+.box {
+  padding: 1rem;
 }
 
 .verification-icons {
@@ -181,9 +185,21 @@
   cursor: pointer;
 }
 
-.identity, .payment, .phone, .email, .facebook, .notConnected {
-  min-width: 2rem;
-  min-height: 2rem;
+.identity,
+.payment,
+.phone,
+.email,
+.facebook,
+.notConnected,
+.identityVerify,
+.paymentVerify,
+.phoneVerify,
+.emailVerify,
+.facebookVerify,
+.connected,
+.facebookConnected {
+  min-width: 1.5rem;
+  min-height: 1.5rem;
 }
 
 .identityVerify, .paymentVerify, .phoneVerify, .emailVerify, .connected {
@@ -192,14 +208,13 @@
 
 .facebookVerify, .facebookConnected {
   color: rgb(29, 29, 161);
-}
+} 
 
 /* Tooltip */
 .verification-hide {
   visibility: hidden;
   opacity: 0;
   position: absolute;
-  bottom: -70px;
   left: 50%;
   transform: translateX(-50%);
   background-color: white;
@@ -207,7 +222,7 @@
   padding: 10px;
   border-radius: 4px;
   font-size: 14px;
-  max-width: 400px;
+  width: 14rem;
   transition: opacity 0.3s ease, visibility 0.3s ease;
   z-index: 10;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -224,11 +239,45 @@
   border-color: transparent transparent gray transparent;
 }
 
-.puncual, .affordable, .likeliness, .rehired {
+.verification-icon:hover .verification-hide {
+  visibility: visible;
+  opacity: 1;
+}
+
+.puncual,
+.affordable,
+.likeliness,
+.rehired {
   display: flex;
+  justify-content: space-between; 
   align-items: center;
-  gap: 5px;
   position: relative;
+  margin: 4px 0;
+  font-size: 15px;
+  width: 100%;
+}
+
+.puncual b,
+.affordable b,
+.likeliness b,
+.rehired b {
+  white-space: nowrap;
+}
+
+.on-time,
+.on-budget,
+.accept-rate,
+.repeat-hire-rate {
+  flex: 1;
+  text-align: left;
+}
+
+.on-time-percent,
+.on-budget-percent,
+.accept-rate-percent,
+.repeat-hire-rate-percent {
+  flex: 1;
+  text-align: right;
 }
 
 .puncual:hover .hideItem,
@@ -248,11 +297,13 @@
   transform: translateX(-50%);
   background-color: rgb(47, 45, 45);
   color: white;
-  padding: 10px;
-  font-size: 12px;
+  padding: 1rem;
+  font-size: 14px;
   max-width: 200px;
   transition: 0.3s ease;
   z-index: 10;
+  border-radius: 0.5rem;
+  line-height: 1.2;
 }
 
 /* Current Company & Experience */

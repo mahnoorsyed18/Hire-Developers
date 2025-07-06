@@ -1,5 +1,11 @@
 import css from "../../css/EachProfile.module.css";
-import { MdOutlinePermIdentity, MdOutlinePayment, MdOutlineLocalPhone, MdOutlineEmail, MdDone } from "react-icons/md";
+import {
+  MdOutlinePermIdentity,
+  MdOutlinePayment,
+  MdOutlineLocalPhone,
+  MdOutlineEmail,
+  MdDone,
+} from "react-icons/md";
 import { FaFacebook } from "react-icons/fa";
 import { FaMinus } from "react-icons/fa6";
 
@@ -159,9 +165,9 @@ const ProfileDetails = ({ engineer }) => {
       <div className={css.bio}>{engineer.bio}</div>
 
       <div className={`row ${css.verifications}`}>
-        <div className="col-sm-6">
+        <div className="col-12 col-md-12">
           <div className="card">
-            <div className="card-body">
+            <div className={`card-body ${css.box}`}>
               <h5 className="card-title">Verifications</h5>
               <p className="card-text">
                 <div className={css["verification-icons"]}>
@@ -174,25 +180,37 @@ const ProfileDetails = ({ engineer }) => {
 
                 <div className={css.puncual}>
                   <b className={css["on-time"]}>On Time</b>
-                  <span className={css["on-time-percent"]}>{engineer.onTimeDelivery}</span>
+                  <span className={css["on-time-percent"]}>
+                    {engineer.onTimeDelivery}
+                  </span>
                   <div className={css.hideItem}>Jobs completed on time</div>
                 </div>
 
                 <div className={css.affordable}>
                   <b className={css["on-budget"]}>On Budget</b>
-                  <span className={css["on-budget-percent"]}>{engineer.onBudget}</span>
-                  <div className={css.hideItem}>Jobs completed at agreed price</div>
+                  <span className={css["on-budget-percent"]}>
+                    {engineer.onBudget}
+                  </span>
+                  <div className={css.hideItem}>
+                    Jobs completed at agreed price
+                  </div>
                 </div>
 
                 <div className={css.likeliness}>
                   <b className={css["accept-rate"]}>Accept Rate</b>
-                  <span className={css["accept-rate-percent"]}>{engineer.acceptRate}</span>
-                  <div className={css.hideItem}>Likelihood of accepting a project</div>
+                  <span className={css["accept-rate-percent"]}>
+                    {engineer.acceptRate}
+                  </span>
+                  <div className={css.hideItem}>
+                    Likelihood of accepting a project
+                  </div>
                 </div>
 
                 <div className={css.rehired}>
                   <b className={css["repeat-hire-rate"]}>Repeat Hire Rate</b>
-                  <span className={css["repeat-hire-rate-percent"]}>{engineer.repeatHireRate}</span>
+                  <span className={css["repeat-hire-rate-percent"]}>
+                    {engineer.repeatHireRate}
+                  </span>
                   <div className={css.hideItem}>Freelancer rehire rate</div>
                 </div>
               </p>

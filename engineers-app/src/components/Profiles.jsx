@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import EachProfile from "./EachProfile";
@@ -10,21 +10,27 @@ const Profiles = () => {
     (store) => store.profile.selectedEngineerId
   );
 
-  const selectedEngineer = engineers.find(
-    (engineer) => engineer.id === selectedEngineerId
-  );
+  const [engineerToShow, setEngineerToShow] = useState(null);
 
   useEffect(() => {
-    if (!selectedEngineer) {
-      navigate("/");
+    if (engineers.length === 0) return; // wait for data to load
+
+    const foundEngineer = engineers.find(
+      (engineer) => engineer.id === selectedEngineerId
+    );
+
+    if (foundEngineer) {
+      setEngineerToShow(foundEngineer);
+    } else {
+      navigate("/"); // only navigate if not found after data is ready
     }
-  }, [selectedEngineer, navigate]);
+  }, [engineers, selectedEngineerId, navigate]);
 
   return (
     <main>
       <div>
-        {selectedEngineer && (
-          <EachProfile key={selectedEngineerId} engineer={selectedEngineer} />
+        {engineerToShow && (
+          <EachProfile key={selectedEngineerId} engineer={engineerToShow} />
         )}
       </div>
     </main>
