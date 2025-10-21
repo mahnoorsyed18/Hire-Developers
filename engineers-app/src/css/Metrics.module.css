@@ -3,11 +3,11 @@
   background-size: cover;
   background-attachment: fixed;
   display: flex;
-  flex-wrap: wrap;               /* Allow items to wrap */
+  flex-wrap: wrap;             
   justify-content: space-around;
   align-items: center;
-  padding: 4rem 2rem;            /* Reduced padding */
-  gap: 2rem;                     /* Space between items */
+  padding: 4rem 2rem;           
+  gap: 2rem;                    
   text-align: center;
 }
 
